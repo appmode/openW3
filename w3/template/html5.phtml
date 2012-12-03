@@ -1,0 +1,40 @@
+{% autoescape off %}
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ head.title }}</title>
+			{% for name, content in head.meta.items %}
+			{% if name == "charset" %}
+			<meta charset="{{ content }}" />
+			{% else %}
+			<meta name="{{ name }}" content="{{ content }}" />
+			{% endif %}
+			{% endfor %}
+			{% for file in head.css %}
+			<link rel="stylesheet" type="text/css" href="{{ file }}" />
+			{% endfor %}
+			{% for file in head.js %}
+			<script type="text/javascript" src="{{ file }}"></script>
+			{% endfor %}
+			<style type="text/css">
+				{{ head.style|indent:4 }}
+			</style>
+			<script type="text/javascript">
+				<!--
+				{{ head.script|indent:4 }}
+				//-->
+			</script>
+		</head>
+		<body>
+			{{ body.html|indent:3 }}
+			<script type="text/javascript">
+				<!--
+				{{ body.script|indent:4 }}
+				//-->
+			</script>
+			<div id="templateDiv">
+				
+			</div>
+		</body>
+	</html>
+{% endautoescape %}

@@ -1,0 +1,40 @@
+{
+	"title":"Sample W3 application",
+	"form":
+	{
+		"sample":true
+	},
+	"js":
+	{
+
+	},
+	"script":
+	{
+
+	},
+	"css":
+	{
+
+	},
+	"model":
+	{
+
+	},
+	"module":
+	{
+
+	},
+	"w3mod":
+	{
+		"event":true,
+		"ui":true
+	},
+	"w3css":
+	{
+	
+	},
+	"info":
+	{
+
+	}
+}

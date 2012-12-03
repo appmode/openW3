@@ -1,0 +1,65 @@
+application: open-w3
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+  
+#----------------------------------------------------------------------#
+# application handlers
+#----------------------------------------------------------------------#
+  
+# CSS
+- url: /app/css/
+  static_dir: app/css
+
+# JS
+- url: /app/js/
+  static_dir: app/js
+
+# View
+- url: /app/view/.*
+  script: w3c/handler/view.py
+
+#----------------------------------------------------------------------#
+# package handlers
+#----------------------------------------------------------------------#
+
+# Lib
+- url: /lib/.*
+  script: w3c/handler/pkg.py
+  
+# media
+- url: /media/.*
+  script: w3c/handler/pkg.py
+
+# image
+- url: /image/.*
+  script: w3c/handler/pkg.py
+  
+# icon
+- url: /icon/.*
+  script: w3c/handler/pkg.py  
+
+# widget
+- url: /widget/.*
+  script: w3c/handler/pkg.py    
+
+#----------------------------------------------------------------------#
+# w3 handlers
+#----------------------------------------------------------------------#
+
+# W3 Javascript
+- url: /w3/js/.*
+  script: w3c/handler/javascript.py
+
+# w3 CSS
+- url: /w3/css/.*
+  script: w3c/handler/css.py
+
+# Page (default)
+- url: .*
+  script: w3c/handler/page.py
+ 
+  
+  
