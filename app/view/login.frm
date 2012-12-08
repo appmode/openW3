@@ -29,7 +29,6 @@
 			"type"      : "tlabs/content/help",
 			"i18nTitle"	: "helpme_find_pwd",
 			"i18n"	    : "helpme_find_pwd_content",
-			"src"       : "image/tlabs/or/visualizations/speedport_back.jpg",
 			"alt"		: "Speedport back"
 		},
 		"hlpLostPwd":

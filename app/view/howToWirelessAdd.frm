@@ -31,12 +31,6 @@
 						}
 					]
 				},
-				"imgContent" :
-				{
-					"type"  : "tlabs/howto/image",
-					"value" : "image/tlabs/or/visualizations/wlan_connect.png",
-					"alt"   : "WLAN Connection"
-				},
 				"datAccess" :
 				{
 					"type"       : "tlabs/howto/data",
