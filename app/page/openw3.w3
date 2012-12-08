@@ -1,0 +1,65 @@
+{
+	"title":"openW3",
+	"form":
+	{
+		"orHeader"    : true,
+		"orMenu"      : true,
+		"orSecurity"  : true,
+		"orWan"              : true,
+		"orLan"              : true,
+		"orWireless"         : true,
+		"orOverview"         : true,
+		"orVoip"             : true,
+		"orVoipAssign"       : true,
+		"orVoipLine"         : true,
+		"orSettingsInfo"     : true,
+		"orSettingsModem"    : true,
+		"orSettingsProblems" : true,
+		"orSettingsPwd"      : true,
+		"orLogin"            : true,
+		"orInfoReboot"       : true,
+		"orConfirm"          : true,
+		"orAlert"            : true,
+		"orHowToLanAdd"            : false,
+		"orHowToWirelessAdd"       : false,
+		"orHowToVoipDect"          : false,
+		"orHowToVoipManage"        : false,
+		"orHowToWanCustomerCenter" : false,
+		"orHowToWanFirewall"       : false
+		
+	},
+	"js":
+	{
+		"openW3"       : true,
+		"luciRpc.conf" : true
+	},
+	"css":
+	{
+		"openW3"       : true
+	},
+	"model":
+	{
+
+	},
+	"module":
+	{
+
+	},
+	"w3mod":
+	{
+		"event"       : true,
+		"ui"          : true,
+		"i18n"        : true,
+		"dataSource"  : true,
+		"luciRpc"     : true
+	},
+	"w3css":
+	{
+		"web" : true
+	},
+	"info":
+	{
+		"target"   : "openW3"
+	},
+	"html" : ""
+}
