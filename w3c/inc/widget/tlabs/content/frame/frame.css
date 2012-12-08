@@ -22,7 +22,7 @@
 /* ARROW UP */
 .w3-tlabs-content-frame_up 
 {
-	background-image 	: url('../../image/tlabs/content/up.gif');
+	background-image 	: url('../../icon/openw3/default/up.gif');
 	background-repeat 	: no-repeat;
 	background-position : 7px 6px;
 }
@@ -30,7 +30,7 @@
 /* ARROW DOWN */
 .w3-tlabs-content-frame_down 
 {
-	background-image 	: url('../../image/tlabs/content/down.gif');
+	background-image 	: url('../../icon/openw3/default/down.gif');
 	background-repeat 	: no-repeat;
 	background-position : 7px 6px;
 }

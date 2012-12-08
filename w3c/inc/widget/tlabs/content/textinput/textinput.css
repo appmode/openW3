@@ -51,7 +51,7 @@
 .w3-tlabs-content-textinput > div:first-child
 {
 	display					: none;
-	background-image		: URL(../../icon/tlabs/or/status_12x12.png);
+	background-image		: URL(../../icon/openw3/default/status_12x12.png);
 	background-repeat		: no-repeat;
 	background-position		: left center;
 	padding-left			: 15px;

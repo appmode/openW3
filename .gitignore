@@ -1,0 +1,4 @@
+*.pyc
+/google_appengine*
+/compiled
+
