@@ -1,0 +1,25 @@
+.w3-tlabs-overview-action
+{
+	font-size				: 12px;
+	color					: #507080;
+	cursor					: pointer;
+	padding-bottom			: 15px;
+	padding-left			: 15px;
+	padding-right			: 15px;
+}
+
+.w3-tlabs-overview-action:hover
+{
+	text-decoration			: underline;
+}
+
+.w3-tlabs-overview-action.w3_disabled
+{
+	cursor					: wait;
+	color 					: #919191;
+}
+
+.w3-tlabs-overview-action.w3_disabled:hover
+{
+	text-decoration			: none;
+}

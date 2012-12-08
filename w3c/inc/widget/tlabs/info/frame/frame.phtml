@@ -1,0 +1,29 @@
+<div></div>
+<div>
+	<div class = "{{ widget.className }}_header">
+		<span id="{{ widget.id }}_Title" {{widget.i18n|dataI18n}}>{{widget.title|optional}}</span>
+	</div>
+	<div></div>
+	<div id="{{ widget.id }}_Value" class = "{{ widget.className }}_content">
+		{% for block in widget.content %}
+			<div>
+			{% for item in block %}
+				<span {% if item.id %}id="{{ widget.id }}_{{item.id}}"{% endif %}
+					{{item.i18n|dataI18n}}
+				>{{item.title|optional}}</span>
+			{% endfor %}
+			</div>
+		{% endfor %}
+	</div>
+	<div></div>
+	<div class = "{{ widget.className }}_buttons">
+	{% for button in widget.buttons %}
+		<button data-action="{{button.action|optional}}" type="{{button.type|optional}}">
+			<span data-action="{{button.action|optional}}" {{button.i18n|dataI18n}}>{{button.title|optional}}</span>
+		</button>
+	{% endfor %}
+	</div>
+</div>
+<div>
+
+</div>

@@ -1,0 +1,148 @@
+.w3-tlabs-howto-list
+{
+	clear					: both;
+	padding					: 4px 12px;
+	width					: 672px;
+}
+
+.w3-tlabs-howto-list > span
+{
+	font-weight				: bold;
+	font-size				: 12px;
+	color					: #4B4B4B;
+}
+
+.w3-tlabs-howto-list a
+{
+	font-size				: 12px;
+	color					: #507080;
+	text-decoration			: none;
+	outline					: none;
+}
+
+.w3-tlabs-howto-list ul,
+.w3-tlabs-howto-list ol
+{
+	margin					: 0;
+	padding					: 0;
+}
+
+.w3-tlabs-howto-list li
+{
+	list-style				: none;
+	padding-left			: 4px;
+	margin-left				: 18px;
+	list-style-position		: outside;
+}
+
+.w3-tlabs-howto-list ol li
+{
+	list-style-type			: decimal;
+}
+
+.w3-tlabs-howto-list ul li
+{
+	list-style-type			: circle;
+}
+
+/* HELP CONTENT */
+.w3-tlabs-howto-list > div:last-child > div 
+{
+	background-color	: #ededed;
+	padding				: 0 8px;
+	margin-left			: 12px;
+	margin-top			: 4px;
+}
+
+.w3-tlabs-howto-list > div:last-child > div img
+{
+	display				: block;
+}
+
+.w3-tlabs-howto-list > div:last-child > div ul
+{
+	margin				: 0;
+	padding				: 0;
+	padding-left		: 10px;
+}
+
+.w3-tlabs-howto-list > div:last-child > div li
+{
+	margin				: 0;
+	padding				: 0;
+	padding-left		: 4px;
+	margin-left			: 10px;
+	list-style			: none;
+	list-style-type		: circle;
+	list-style-position	: outside;
+}
+
+.w3-tlabs-howto-list_data
+{
+	font-weight			: bold;
+}
+
+/* HELP TITLE (link) */
+.w3-tlabs-howto-list_help
+{
+	color				: #6c6c6c;
+	font-weight			: normal;
+	text-decoration		: underline;	
+}
+.w3-tlabs-howto-list_help:hover
+{
+	color				: #507080;
+	cursor				: pointer;
+}
+
+/* HELP BLOCK : HIDE */
+.w3-tlabs-howto-list_hide
+{
+	overflow			: hidden;
+	max-height			: 0px;
+	opacity				: 0;
+	transition			: max-height 1s, opacity 1.5s;
+	-o-transition		: max-height 1s, opacity 1.5s;
+	-moz-transition		: max-height 1s, opacity 1.5s;
+	-webkit-transition	: max-height 1s, opacity 1.5s;
+}
+
+/* HELP BLOCK : SHOW */
+.w3-tlabs-howto-list_show
+{
+	overflow			: hidden;
+	max-height			: 800px;
+	opacity             : 1;
+	transition			: max-height 2s, opacity 0.7s;
+	-o-transition		: max-height 2s, opacity 0.7s;
+	-moz-transition		: max-height 2s, opacity 0.7s;
+	-webkit-transition	: max-height 2s, opacity 0.7s;
+}
+
+/* HELP BLOCK CONTENT */
+.w3-tlabs-howto-list > div:last-child > div > span:first-child
+{
+	display				: block;
+	padding				: 4px 0;
+}
+
+/* HELP BLOCK CLOSE BLOCK */
+.w3-tlabs-howto-list > div:last-child > div > span:last-child
+{
+	display				: block;
+	padding				: 4px 0;
+	text-align			: right;
+}
+
+/* HELP BLOCK CLOSE */
+.w3-tlabs-howto-list > div:last-child > div > span:last-child > span
+{
+	color 				: #e42185;
+	cursor				: pointer;
+}
+
+/* HELP BLOCK CLOSE HOVER */
+.w3-tlabs-howto-list > div:last-child > div > span:last-child span:hover
+{
+	text-decoration		: underline;
+}

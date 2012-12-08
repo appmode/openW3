@@ -1,0 +1,33 @@
+/* BLOCK */
+.w3-tlabs-content-radioinput
+{
+	margin				: 10px 0 10px 15px;
+}
+
+/* INPUT WRAPPER */
+.w3-tlabs-content-radioinput > div:first-child
+{
+	float 				: right;
+	width 				: 227px;
+}
+
+/* PARAGRAPH */
+.w3-tlabs-content-radioinput > div > p
+{
+	margin 				: 0 0 4px 0;
+	clear: both;
+}
+
+/* LABEL */
+.w3-tlabs-content-radioinput > div > p > label
+{
+	cursor				: pointer;
+	position 			: relative;
+	top 				: 3px;
+}
+
+/* INPUT */
+.w3-tlabs-content-radioinput > div > p > input
+{
+	float: left;
+}

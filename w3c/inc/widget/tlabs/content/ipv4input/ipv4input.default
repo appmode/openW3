@@ -1,0 +1,10 @@
+{
+	"prefix" : "192.168",
+	"style":
+	{
+		"position" : "relative",
+		"width"    : "455px"
+	},
+	"i18nError" : "error_message_generalnvalid",
+    "Register" : ["dataSource"]
+}

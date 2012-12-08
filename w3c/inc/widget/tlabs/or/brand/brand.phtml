@@ -1,0 +1,9 @@
+<a href="{{widget.homeUrl}}">
+	<div class="or-logo" style="background-image:URL({{widget.logoImage}});"></div>
+</a>
+
+{% for link in widget.links %}
+	<span>
+		<a {{link.i18n|dataI18n}} href="{{link.url}}">{{link.title|optional}}</a>
+	</span>
+{% endfor %}

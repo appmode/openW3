@@ -1,0 +1,75 @@
+/* template area */
+.w3-tlabs-content-telnumsettings_template
+{
+	visibility				: hidden;
+	display					: none;
+	height					: 0px;
+	width					: 0px;
+}
+
+/* BLOCK */
+.w3-tlabs-content-telnumsettings
+{
+	margin					: 10px 0 10px 15px;
+}
+
+/* PARAGRPAH */
+.w3-tlabs-content-telnumsettings p
+{
+	margin					: 0;
+
+}
+
+/* TABLE */
+.w3-tlabs-content-telnumsettings > table
+{
+	width 					: 100%;
+}
+
+/* header */
+.w3-tlabs-content-telnumsettings > table > thead > tr > td
+{
+	border-bottom 			: 1px solid #EAEAEA;
+}
+
+/* TITLE */
+.w3-tlabs-content-telnumsettings > table > thead > tr > td:nth-child(2)
+{
+	text-align				: left;
+}
+
+/* table body */
+
+/* TD */
+.w3-tlabs-content-telnumsettings > table > tbody > tr > td
+{
+	padding 				: 2px 5px;
+	border-right 			: 1px solid #EAEAEA;
+}
+
+/* FIRST TD */
+.w3-tlabs-content-telnumsettings > table > tbody > tr > td:first-child
+{
+	text-align				: right;
+	font-weight				: bold;
+	width					: 148px;
+}
+
+/* SECOND TD */
+.w3-tlabs-content-telnumsettings > table > tbody > tr > td:nth-child(2)
+{
+	text-align 				: center;
+	width					: 90px;
+}
+
+/* LAST TD */
+.w3-tlabs-content-telnumsettings > table > tbody > tr > td:last-child
+{
+	border-right			: none;
+}
+
+
+
+
+
+

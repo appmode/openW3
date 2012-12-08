@@ -1,0 +1,105 @@
+.w3-tlabs-overview-help
+{
+	text-decoration			: underline;
+	color					: #6C6C6C;
+	font-size				: 12px;
+	line-height				: 15px;
+	cursor					: pointer;
+}
+
+.w3-tlabs-overview-help > span
+{
+	padding-left			: 15px;
+	padding-right			: 15px;
+	opacity					: 1;
+	transition				: opacity 1s;
+	-o-transition			: opacity 1s;
+	-moz-transition			: opacity 1s;
+	-webkit-transition		: opacity 1s;
+}
+
+.w3-tlabs-overview-help:hover > span
+{
+	padding-left			: 15px;
+	padding-right			: 15px;
+	opacity					: 0;
+}
+
+.w3-tlabs-overview-help > div
+{
+	position				: absolute;
+	overflow				: hidden;
+	height					: 0px;
+	bottom					: 0px;
+	opacity					: 0;
+	transition				: height 1s, opacity 1.5s;
+	-o-transition			: height 1s, opacity 1.5s;
+	-moz-transition			: height 1s, opacity 1.5s;
+	-webkit-transition		: height 1s, opacity 1.5s;
+}
+
+.w3-tlabs-overview-help:hover > div
+{
+	height					: 80px;
+	opacity					: 1;
+}
+
+.w3-tlabs-overview-help > div > div
+{
+	
+}
+
+.w3-tlabs-overview-help > div > div > div:first-child
+{
+	position				: relative;
+	background-image		: URL(../../image/tlabs/or/flyout/top.png);
+	width					: 184px;
+	height					: 12px;
+	background-position		: bottom;
+	background-repeat		: no-repeat;
+}
+
+.w3-tlabs-overview-help > div > div > div:nth-child(2)
+{
+	position				: relative;
+	background-image		: URL(../../image/tlabs/or/flyout/middle.png);
+	width					: 184px;
+	background-repeat		: repeat-y;
+}
+
+.w3-tlabs-overview-help > div > div > div:last-child
+{
+	position				: relative;
+	background-image		: URL(../../image/tlabs/or/flyout/bottom.png);
+	width					: 184px;
+	height					: 16px;
+	background-position		: bottom;
+}
+
+
+
+.w3-tlabs-overview-help ul
+{
+	margin					: 0;
+	padding					: 0;
+	padding-left			: 6px;
+	padding-top				: 0px;
+	
+}
+
+.w3-tlabs-overview-help li
+{
+	margin					: 0;
+	padding					: 0;
+	height					: 30px;
+	padding-left			: 6px;
+	padding-right			: 6px;
+	list-style				: none;
+	color					: #D0D0D0;
+}
+
+.w3-tlabs-overview-help li:hover
+{
+	background-image		: URL(../../image/tlabs/or/flyout/highlight.png);
+	background-repeat		: no-repeat;
+}

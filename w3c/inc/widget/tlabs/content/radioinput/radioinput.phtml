@@ -1,0 +1,14 @@
+<div>
+{% for button in widget.buttons %}
+	<p>
+		<input id="{{widget.id}}_button{{forloop.counter0}}"
+			type="radio"
+			data-value="{{forloop.counter0}}"
+			name="{{widget.id}}" />
+		<label data-value="{{forloop.counter0}}" for="{{widget.id}}_button{{forloop.counter0}}" {{button.i18n|dataI18n}}>{{button.title|optional}}</label>
+	</p>
+{% endfor %}
+</div>
+
+<div {{widget.i18n|dataI18n}}>{{widget.value|optional}}</div>
+

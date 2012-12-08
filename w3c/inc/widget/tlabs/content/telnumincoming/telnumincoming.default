@@ -1,0 +1,14 @@
+{
+	"i18n" : 
+	{
+		"all" : "key_allNumbers",
+		"s1"  : "a_pc_s3p2_socket_inputField_1_default",
+		"s2"  : "a_pc_s3p2_socket_inputField_2_default"
+	},
+	"style":
+	{
+		"position" : "relative",
+		"width"    : "442px"
+	},
+    "Register" : ["dataSource"]
+}

@@ -1,0 +1,4 @@
+<div id="{{widget.id}}_toggle" class="{{widget.className}}{% if widget.open %}_up{% else %}_down{% endif %}" {{widget.i18n|dataI18n}} data-action="toggle">{{widget.title|optional}}</div>
+<div id="{{widget.id}}_Content" class="{{widget.className}}{% if widget.open %}_show{% else %}_hide{% endif %}">
+	{{children|indent:1}}
+</div>

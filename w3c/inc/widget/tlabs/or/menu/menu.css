@@ -1,0 +1,95 @@
+.w3-tlabs-or-menu
+{
+
+}
+
+.w3-tlabs-or-menu > div + div
+{
+	display 			: none;
+}
+
+.w3-tlabs-or-menu ul
+{
+	margin-top			: 14px;
+	margin-left			: 12px;
+	margin-right		: 18px;
+	margin-bottom		: 12px;
+	padding				: 0;
+}
+
+.w3-tlabs-or-menu li
+{
+	list-style			: none;
+	margin				: 0;
+	padding				: 0;
+	font-weight			: bold;
+	font-size			: 12px;
+	color				: #4B4B4B;
+	padding-bottom		: 9px;
+	cursor				: pointer;
+}
+
+.w3-tlabs-or-menu li > span:hover
+{
+	color				: #507080;
+}
+
+.w3-tlabs-or-menu li.w3_select
+{
+	color				: #507080;
+}
+
+
+.w3-tlabs-or-menu li > div
+{
+
+}
+
+.w3-tlabs-or-menu li > span + div
+{
+	position			: relative;
+	height				: 0px;
+	width				: 0px;
+	left				: 120px;
+	overflow			: hidden;
+	opacity				: 0;
+	
+	transition			: opacity 0.1s linear 1.2s;
+	-o-transition		: opacity 0.1s linear 1.2s;
+	-moz-transition		: opacity 0.1s linear 1.2s;
+	-webkit-transition	: opacity 0.1s linear 1.2s;
+}
+
+.w3-tlabs-or-menu li > span:hover + div
+{
+	overflow			: visible;
+	opacity				: 1;
+	z-index				: 999999999;
+}
+
+.w3-tlabs-or-menu li > div > span
+{
+	display				: block;
+	width				: 152px;
+	color				: white;
+	padding-left		: 6px;
+	padding-right		: 10px;
+	font-size			: 12px;
+	font-style			: normal;
+	font-weight			: normal;
+	text-align			: left;
+	line-height			: 15px;
+	z-index				: 99999;
+	margin				: 0px;
+	padding-top			: 6px;
+	padding-bottom		: 6px;
+	border-radius		: 4px;
+	background-color	: #3B3B3B;
+	-moz-box-shadow		: 2px 2px 4px rgba(59,59,59,0.6);
+	-webkit-box-shadow	: 2px 2px 4px rgba(59, 59, 59, 0.6);
+	box-shadow			: 2px 2px 4px rgba(59, 59, 59, 0.6);
+	filter				: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#3b3b3b');
+	-ms-filter			: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#3b3b3b')";
+}
+
+

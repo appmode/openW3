@@ -1,0 +1,19 @@
+{
+	"i18n" :
+	{
+		"add"        : "a_pc_s2p2_link_1",
+		"change"	 : "phone_internet_content_link_change",
+		"number"	 : "key_phoneNumber",
+		"numberFull" : "key_phoneNumber_areaCode",
+		"activate"   : "phone_internet_content_link_activate",
+		"deactivate" : "phone_internet_content_link_deactivate",
+		"delete"     : "deleteLink",
+		"default"    : "phone_internet_ip_number_example"
+	},
+	"style":
+	{
+		"position" : "relative",
+		"width"    : "442px"
+	},
+    "Register" : ["dataSource"]
+}

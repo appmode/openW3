@@ -1,0 +1,9 @@
+{
+    "style" : {
+		"marginLeft"   : "50%",
+        "left"         : "-357px",
+		"top"          : "24px",
+		"width"        : "714px",
+		"minHeight"    : "100px"
+    }
+}

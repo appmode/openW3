@@ -1,0 +1,16 @@
+{
+    "style" : {
+		"marginLeft"   : "50%",
+        "left"         : "-228px",
+		"top"          : "24px",
+		"width"        : "456px",
+		"minHeight"    : "100px"
+    },
+    "buttons":
+	[
+		{
+			"action" : "ok",
+			"i18n"   : "btn_ok"
+		}
+	]
+}

@@ -1,0 +1,180 @@
+/* template area */
+.w3-tlabs-content-telnum_template
+{
+	visibility				: hidden;
+	display					: none;
+	height					: 0px;
+	width					: 0px;
+}
+
+.w3-tlabs-content-telnum > div
+{
+	visibility				: hidden;
+	display					: none;
+}
+
+.w3-tlabs-content-telnum > div.w3_select
+{
+	visibility				: inherit;
+	display					: block;
+}
+
+/* BLOCK */
+.w3-tlabs-content-telnum
+{
+	padding					: 0 0 0 15px;
+}
+
+/* CHANGE PROVIDER LINK */
+.w3-tlabs-content-telnum > div > span
+{
+	color					: #e42185;
+	cursor 					: pointer;
+	padding-top 			: 8px;
+}
+
+/* view container */
+.w3-tlabs-content-telnum_view
+{
+	padding-top			: 12px;
+}
+
+/* number container */
+.w3-tlabs-content-telnum_view > div
+{
+	position				: relative;
+	padding-bottom			: 12px;
+}
+
+/* label */
+.w3-tlabs-content-telnum_view > div > span:first-child
+{
+	position				: relative;
+	padding-right			: 5px;
+	padding-left			: 20px;
+}
+/* default : display a check mark */
+.w3-tlabs-content-telnum_view > div > span:first-child > span + span
+{
+	display 				: block;
+	position				: absolute;
+	left					: 0px;
+	top						: 50%;
+	margin-top				: -6px;
+	width					: 12px;
+	height					: 12px;
+	background-image		: url(../../icon/tlabs/or/status_12x12.png);
+	background-repeat		: no-repeat;
+	background-position		: left top;
+}
+/* sip error : display an error "!" */
+.w3-tlabs-content-telnum_view > div.w3_error > span:first-child > span + span
+{
+	background-position		: 0px -36px;
+}
+
+/* number */
+.w3-tlabs-content-telnum_view > div > span:nth-child(2)
+{
+
+}
+
+/* ACTIVATE/DEACTIVATE */
+.w3-tlabs-content-telnum_view > div > span:nth-child(3),
+.w3-tlabs-content-telnum_view > div > span:nth-child(4)
+{
+	position				: absolute;
+	left					: 216px;
+	top						: 0px;
+	color					: #e42185;
+	cursor 					: pointer;
+}
+.w3-tlabs-content-telnum_view > div > span:nth-child(3):hover,
+.w3-tlabs-content-telnum_view > div > span:nth-child(4):hover
+{
+	text-decoration			: underline;
+}
+.w3-tlabs-content-telnum_view > div.w3_active > span:nth-child(3)
+{
+	display					: none;
+}
+.w3-tlabs-content-telnum_view > div.w3_inactive > span:nth-child(4)
+{
+	display					: none;
+}
+
+/* DELETE */
+.w3-tlabs-content-telnum_view > div > span:last-child
+{
+	position				: absolute;
+	right					: 0px;
+	top						: 0px;
+	color					: #7e7e7e;
+	text-align 				: right;
+	padding-left 			: 16px;
+	cursor 					: pointer;
+	background-image		: url(../../icon/tlabs/or/delete.png);
+	background-repeat		: no-repeat;
+	background-position		: 0 0;
+}
+.w3-tlabs-content-telnum_view > div > span:last-child:hover
+{
+	background-position		: 0 -33px;
+}
+
+/* ************************************************************************** */
+
+/* number container */
+.w3-tlabs-content-telnum_edit > div
+{
+	height					: 28px;
+	position				: relative;
+	padding 				: 2px 0;
+}
+
+/*
+.w3-tlabs-content-telnum > span
+{
+	padding-top 			: 8px;
+}*/
+
+/* INPUT */
+.w3-tlabs-content-telnum_edit > div > input
+{
+	float					: right;
+	width					: 210px;
+	border 					: 1px solid #bcbcbc;
+	color					: #5b5b5b;
+	padding					: 3px 5px;
+	-moz-border-radius		: 3px;
+	-webkit-border-radius	: 3px;
+	border-radius 			: 3px;
+	-webkit-box-shadow		: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow			: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15);      
+    box-shadow 				: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+}
+/* sip error */
+.w3-tlabs-content-telnum_edit > div.w3_error > input
+{
+	border					: 1px solid red;
+}
+
+/* LABEL */
+.w3-tlabs-content-telnum_edit > div > label
+{
+	position 				: relative;
+	top 					: 7px;
+	cursor					: pointer;
+}
+
+/* ADD LINK */
+.w3-tlabs-content-telnum > div > span > span
+{
+	display					: block;
+	color					: #e42185;
+	margin-top 				: 8px;
+	margin-left 			: 222px;
+	padding-left 			: 16px;
+	cursor 					: pointer;
+	background 				: transparent url('../../image/tlabs/content/pluss.gif') no-repeat 0 1px;
+}

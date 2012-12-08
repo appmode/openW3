@@ -1,0 +1,23 @@
+<table border="0" cellspacing="0" cellpadding="0">
+	<thead>
+		<tr>
+			<td></td>
+			<td {{widget.i18n.s1|dataI18n}}></td>
+			<td {{widget.i18n.s2|dataI18n}}></td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr id="{{widget.id}}_auto">
+			<td width="148" {{widget.i18n.auto|dataI18n}}></td>
+			<td><input type="radio" name="{{widget.id}}_s1" /></td>
+			<td><input type="radio" name="{{widget.id}}_s2" /></td>
+		</tr>
+	</tbody>
+	<tbody id="{{widget.id}}_table"></tbody>
+</table>
+
+<div id="" class="{{widget.className}}_template">
+	<table>
+		<tr id="{{widget.id}}_templateRow"><td></td><td><input type="radio" name="{{widget.id}}_s1" /></td><td><input type="radio" name="{{widget.id}}_s2" /></td></tr>
+	</table>
+</div>

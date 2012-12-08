@@ -1,0 +1,40 @@
+.w3-tlabs-howto-data
+{
+	clear					: both;
+	padding					: 4px 12px;
+	width					: 672px;
+}
+
+.w3-tlabs-howto-data > div:first-child
+{
+	font-weight				: bold;
+	font-size				: 12px;
+	color					: #4B4B4B;
+}
+
+/* box */
+.w3-tlabs-howto-data > div + div 
+{
+	border					: 1px solid black;
+	padding-top				: 9px;
+	padding-left			: 7px;
+	padding-bottom			: 9px;
+}
+
+.w3-tlabs-howto-data > div + div > div
+{
+
+}
+
+.w3-tlabs-howto-data > div + div > div > span
+{
+	display					: inline-block;
+	min-width				: 170px;
+	line-height				: 16px;
+}
+
+.w3-tlabs-howto-data > div + div > div > span + span
+{
+	line-height				: 16px;
+}
+

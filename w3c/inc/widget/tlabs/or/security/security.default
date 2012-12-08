@@ -1,0 +1,16 @@
+{
+	"i18n"     : "overview_secureStatus_caption",
+	"i18nHigh" : "key_wlanEncrypted",
+	"i18nLow"  : "overview_secureStatus_wlanLessEncrypted",
+	"i18nNone" : "key_wlanNotEncrypted",
+	"securityLevels" :
+	{
+		"none"      : 0,
+		"wep"       : 1,
+		"psk"       : 1,
+		"mixed-psk" : 1,
+		"psk2"      : 2
+	},
+    "Register" : ["dataSource"],
+    "dataMemberType" : "output"
+}

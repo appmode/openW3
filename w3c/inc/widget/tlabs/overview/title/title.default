@@ -1,0 +1,8 @@
+{
+	"style":
+	{
+		"position" : "relative",
+		"width"    : "150px",
+		"overflow" : "visible"
+	}
+}

@@ -1,0 +1,58 @@
+<span {{widget.i18nTitle|dataI18n}}>{{widget.title|optional}}</span>
+{% if widget.ordered %}<ol>{% else %}<ul>{% endif %}
+{% for item in widget.items %}
+	{% if item.content %}
+	<li>
+		{% for subItem in item.content %}
+			{% if subItem.href %}<a target="_blank" href="{{subItem.href}}">{% endif %}
+			{% if subItem.i18nHelp %}
+				<span id="{{widget.id}}_item{{forloop.parentloop.counter}}.{{forloop.counter}}"
+					data-action="show"
+					data-target="{{forloop.parentloop.counter}}.{{forloop.counter}}"
+					class="{{widget.className}}_help"
+				>
+			{% endif %}
+			{% if subItem.target %}
+				<span id="{{widget.id}}_item{{forloop.parentloop.counter}}.{{forloop.counter}}"
+					data-action="navigate"
+					data-menu="{{subItem.target.0}}"
+					data-view="{{subItem.target.1}}"
+					class="{{widget.className}}_nav"
+				>
+			{% endif %}
+			{% if subItem.dataField %}<span class="{{widget.className}}_data" data-field="{{subItem.dataField}}">{% endif %}
+			{% for spanItem in subItem.i18n|zipLongest:subItem.value %}
+				<span {{spanItem.0|dataI18n}}>{{spanItem.1|optional}}</span>
+			{% endfor %}
+			{% if subItem.dataField %}</span>{% endif %}
+			{% if subItem.target %}</span>{% endif %}
+			{% if subItem.i18nHelp %}</span>{% endif %}
+			{% if subItem.href %}</a>{% endif %}
+		{% endfor %}
+	</li>
+	{% else %}
+	<li {{item.i18n|dataI18n}}>{{item.value|optional}}</li>
+	{% endif %}
+{% endfor %}
+{% if widget.ordered %}</ol>{% else %}</ul>{% endif %}
+<div>
+{% for item in widget.items %}
+{% if item.content %}
+	{% for subItem in item.content %}
+	{% if subItem.i18nHelp %}
+		<div id="{{widget.id}}_hidden{{forloop.parentloop.counter}}.{{forloop.counter}}"
+			class="{{widget.className}}_hide" 
+			data-target="{{forloop.parentloop.counter}}.{{forloop.counter}}"
+		>
+			<span {{subItem.i18nHelp|dataI18n}}></span>
+			<span>
+				<span {{widget.i18nClose|dataI18n}} data-action="hide">
+					{{widget.close|optional}}	
+				</span>
+			</span>
+		</div>
+	{% endif %}
+	{% endfor %}
+{% endif %}
+{% endfor %}
+</div>

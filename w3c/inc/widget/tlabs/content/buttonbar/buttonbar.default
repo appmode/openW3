@@ -1,0 +1,40 @@
+{
+	"style":
+	{
+		"position" : "relative",
+		"width"    : "455px",
+		"marginBottom"		: "0"
+	},
+	"buttons":
+	[
+		{
+			"action" : "cancel",
+			"i18n"   : "btn_break"
+		},
+		{
+			"action" : "save",
+			"i18n"   : "btn_save"
+		}
+	],
+	"status":
+	{
+		"none"  : false,
+		"wait"  : false,
+		"ok"    : false,
+		"info"  : false,
+		"warn"  : false,
+		"error" : 
+		{
+			"status" : "error",
+			"i18n"   : "error_message_generalnvalid"
+		},
+		"save"  :
+		{
+			"status" : "info",
+			"i18n"   : "hint_dataSaved"
+		}
+	},
+    "Register"       : ["dataSource"],
+    "dataMemberType" : "output",
+    "dataField"      : "*"
+}

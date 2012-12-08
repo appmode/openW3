@@ -1,0 +1,58 @@
+/* BLOCK */
+.w3-tlabs-content-frame
+{
+	padding				: 10px 0 10px 8px;
+}
+
+/* BLOCK TITLE */
+.w3-tlabs-content-frame > div:first-child
+{
+	font-weight 		: bold;
+	color 				: #4B4B4B;
+	background-color 	: #ededed;
+	padding				: 2px 0 2px 20px;
+	cursor 				: pointer;
+}
+
+.w3-tlabs-content-frame > div:first-child:hover
+{
+	color 				: #e42185;
+}
+
+/* ARROW UP */
+.w3-tlabs-content-frame_up 
+{
+	background-image 	: url('../../image/tlabs/content/up.gif');
+	background-repeat 	: no-repeat;
+	background-position : 7px 6px;
+}
+
+/* ARROW DOWN */
+.w3-tlabs-content-frame_down 
+{
+	background-image 	: url('../../image/tlabs/content/down.gif');
+	background-repeat 	: no-repeat;
+	background-position : 7px 6px;
+}
+
+/* HIDDEN BLOCK : HIDE */
+.w3-tlabs-content-frame_hide
+{
+	max-height			: 0px;
+	opacity				: 0;
+	transition			: max-height 1s, opacity 1.5s;
+	-o-transition		: max-height 1s, opacity 1.5s;
+	-moz-transition		: max-height 1s, opacity 1.5s;
+	-webkit-transition	: max-height 1s, opacity 1.5s;
+}
+
+/* HIDDEN BLOCK : SHOW */
+.w3-tlabs-content-frame_show
+{
+	max-height			: 1200px;
+	opacity             : 1;
+	transition			: max-height 2s, opacity 1.5s;
+	-o-transition		: max-height 2s, opacity 1.5s;
+	-moz-transition		: max-height 2s, opacity 1.5s;
+	-webkit-transition	: max-height 2s, opacity 1.5s;
+}

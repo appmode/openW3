@@ -1,0 +1,9 @@
+<div {{widget.i18nTitle|dataI18n}}>{{widget.title|optional}}</div>
+<div>
+{% for item in widget.items %}
+	<div>
+		<span {{item.i18n|dataI18n}}>{{item.label|optional}}</span>
+		<span data-field="{{item.dataField}}">{{item.value|optional}}</span>
+	</div>
+{% endfor %}
+</div>

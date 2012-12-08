@@ -1,0 +1,50 @@
+/* template area */
+.w3-tlabs-content-telnumoutgoing_template
+{
+	visibility				: hidden;
+	display					: none;
+	height					: 0px;
+	width					: 0px;
+}
+
+/* BLOCK */
+.w3-tlabs-content-telnumoutgoing
+{
+	margin					: 10px 0 10px 15px;
+}
+
+/* TABLE */
+.w3-tlabs-content-telnumoutgoing > table
+{
+	width 					: 300px;
+
+}
+
+/* column 1 */
+.w3-tlabs-content-telnumoutgoing > table td:first-child
+{
+	width					: 148px;
+	text-align 				: right;
+	font-weight 			: bold;
+}
+
+/* column 2+ */
+.w3-tlabs-content-telnumoutgoing > table td + td
+{
+	text-align 				: center;
+	font-weight 			: bold;
+}
+
+/* header */
+.w3-tlabs-content-telnumoutgoing > table > thead > tr > td
+{
+	border-bottom 			: 1px solid #EAEAEA;
+	border-right 			: 1px solid #EAEAEA;
+}
+
+/* table body */
+.w3-tlabs-content-telnumoutgoing > table > tbody > tr > td
+{
+	padding 				: 2px 5px;
+	border-right 			: 1px solid #EAEAEA;
+}

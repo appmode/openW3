@@ -1,0 +1,45 @@
+.w3-tlabs-or-contentbox
+{
+	background-color	: #ffffff;
+	font-family			: "Arial", sans-serif;
+	font-size			: 12px;
+	line-height			: 15px;
+	
+	transition			: visibility 0.7s, opacity 0.7s;
+	-o-transition		: visibility 0.7s, opacity 0.7s;
+	-moz-transition		: visibility 0.7s, opacity 0.7s;
+	-webkit-transition	: visibility 0.7s, opacity 0.7s;
+	opacity				: 0;
+}
+
+.w3-tlabs-or-contentbox.w3_show
+{
+	transition			: opacity 0.5s;
+	-o-transition		: opacity 0.5s;
+	-moz-transition		: opacity 0.5s;
+	-webkit-transition	: opacity 0.5s;
+}
+
+.w3-tlabs-or-contentbox_Content
+{
+	position			: relative;
+	width				: 100%;
+	background-image	: URL(../../image/tlabs/or/contentbox/middle.png);
+	min-height			: 200px;
+}
+
+.w3-tlabs-or-contentbox > div:first-child
+{
+	position			: relative;
+	background-image	: URL(../../image/tlabs/or/contentbox/top.png);
+	width				: 100%;
+	height				: 5px;
+}
+
+.w3-tlabs-or-contentbox > div:last-child
+{
+	position			: relative;
+	background-image	: URL(../../image/tlabs/or/contentbox/bottom.png);
+	width				: 100%;
+	height				: 9px;
+}

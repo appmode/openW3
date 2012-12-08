@@ -1,0 +1,8 @@
+{
+	"style":
+	{
+		"position" : "relative",
+		"width"    : "455px"
+	},
+    "Register" : ["dataSource"]
+}

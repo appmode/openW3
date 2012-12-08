@@ -1,0 +1,99 @@
+.w3-tlabs-or-nav
+{
+
+}
+
+.w3-tlabs-or-nav > div > div
+{
+	overflow			: hidden;
+	position			: relative;
+	float				: left;
+	height				: 66px;
+	background-image	: inherit;
+	text-align			: center;
+	color				: #A4A4A4;
+}
+
+.w3-tlabs-or-nav > div > div > div
+{
+	position			: relative;
+	height				: 30px;
+	width				: 30px;
+	margin-left			: 50%;
+	left				: -15px;
+	margin-top			: 5px;
+	cursor				: pointer;
+}
+
+.w3-tlabs-or-nav > div > div > span
+{
+	vertical-align		: middle;
+	text-align			: center;
+	font-size			: 11px;
+	line-height			: 15px;
+	cursor				: pointer;
+}
+
+.w3-tlabs-or-nav .or-nav-left
+{
+	width				: 237px;
+}
+
+.w3-tlabs-or-nav .or-nav-left span
+{
+	position			: absolute;
+	font-family			: Helvetica, Arial;
+	font-size			: 16px;
+	color				: #787878;
+	top					: 23px;
+	left				: 30px;
+	cursor				: default;
+}
+
+.w3-tlabs-or-nav .or-nav-left a
+{
+	text-decoration		: none;
+	color				: #787878;
+}
+
+
+.w3-tlabs-or-nav .or-nav-middle
+{
+	width				: 120px;
+	background-position : -239px 0px;
+}
+
+.w3-tlabs-or-nav .or-nav-middle.or-nav-active.w3_select
+{
+	background-position : -239px -132px;
+	cursor				: pointer;
+	color				: #ffffff;
+}
+
+.w3-tlabs-or-nav .or-nav-middle.or-nav-active:hover
+{
+	background-position : -239px -66px;
+	cursor				: pointer;
+	color				: #ffffff;
+}
+
+.w3-tlabs-or-nav .or-nav-right
+{
+	width				: 129px;
+	background-position : -359px 0px; 
+}
+
+.w3-tlabs-or-nav .or-nav-right.or-nav-active.w3_select
+{
+	background-position : -359px -132px;
+	color				: #ffffff;
+}
+
+.w3-tlabs-or-nav .or-nav-right.or-nav-active:hover
+{
+	background-position : -359px -66px;
+	cursor				: pointer;
+	color				: #ffffff;
+}
+
+

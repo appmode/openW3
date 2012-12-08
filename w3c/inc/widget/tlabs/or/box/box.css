@@ -1,0 +1,14 @@
+.w3-tlabs-or-box
+{
+	background-color	: #ffffff;
+	font-family			: "Arial", sans-serif;
+}
+
+.w3-tlabs-or-box_Content
+{
+	position			: absolute;
+	top					: 0px;
+	bottom				: 0px;
+	left				: 0px;
+	right				: 0px;
+}

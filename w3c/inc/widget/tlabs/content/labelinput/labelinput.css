@@ -1,0 +1,12 @@
+/* BLOCK */
+.w3-tlabs-content-labelinput
+{
+	padding				: 10px 0 0 15px;
+}
+
+/* INPUT */
+.w3-tlabs-content-labelinput > div:first-child
+{
+	float				: right;
+	width				: 222px;
+}

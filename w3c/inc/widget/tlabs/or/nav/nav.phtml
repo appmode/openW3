@@ -1,0 +1,31 @@
+<div style="background-image : URL({{widget.backgroundSprite}});">
+	<div class="or-nav-left" >
+		<span>
+		 <a {{widget.i18n|dataI18n}} href="{{widget.homeUrl}}">{{widget.title|optional}}</a>
+		</span>
+	</div>
+	
+	{% for button in widget.buttons %}
+		<div id = "{{widget.id}}_button{{forloop.counter}}"
+			data-button = "{{forloop.counter}}"
+			class="
+			{% if button %}
+				or-nav-active
+			{% endif %}
+			{% if forloop.last %}
+				or-nav-right
+			{% else %}
+				or-nav-middle
+			{% endif %}
+			"
+		>
+			{% if button %}
+				<div style="
+					background-image    : URL({{widget.iconSprite}});
+					background-position : 0px -{{ button.iconFrame|multiply:30|subtract:30 }}px;
+				"></div>
+				<span {{button.i18n|dataI18n}}>{{button.title|optional}}</span>
+			{% endif %}
+		</div>
+	{% endfor %}
+</div>

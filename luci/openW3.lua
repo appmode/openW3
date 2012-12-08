@@ -1,3 +1,4 @@
+-- Contributed by T-Labs, Deutsche Telekom Innovation Laboratories
 local ipkg  = require "luci.model.ipkg"
 local sys	= require "luci.sys"
 local io	= require "io"

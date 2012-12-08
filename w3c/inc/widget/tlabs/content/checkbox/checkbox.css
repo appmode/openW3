@@ -1,0 +1,19 @@
+/* BLOCK */
+.w3-tlabs-content-checkbox
+{
+	margin				: 10px 0 10px 15px;
+}
+
+/* INPUT */
+.w3-tlabs-content-checkbox > input
+{
+	#margin-left			: 233px;
+}
+
+/* LABEL */
+.w3-tlabs-content-checkbox > label
+{
+	cursor				: pointer;
+	position			: relative;
+	top					: -2px;
+}

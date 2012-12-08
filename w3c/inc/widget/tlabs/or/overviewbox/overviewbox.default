@@ -1,0 +1,11 @@
+{
+    "style" :
+    {
+		"marginLeft"   : "50%",
+        "left"         : "-302px",
+		"top"          : "140px",
+		"width"        : "540px"
+    },
+    "Register" : ["i18n"]
+    
+}

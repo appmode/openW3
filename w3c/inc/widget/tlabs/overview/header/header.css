@@ -1,0 +1,38 @@
+.w3-tlabs-overview-header
+{
+	padding-left			: 15px;
+	padding-right			: 15px;
+	padding-bottom			: 15px;
+}
+
+.w3-tlabs-overview-header > h2
+{
+	font-weight				: bold;
+	display					: block;
+	text-align				: center;
+	margin					: 0px;
+	padding					: 0px;
+	padding-top				: 7px;
+	font-size				: 12px;
+	color					: #4B4B4B;
+}
+
+.w3-tlabs-overview-header > div:first-child
+{
+	position				: absolute;
+	top						: 5px;
+	right					: 18px;
+	height					: 20px;
+	width					: 20px;
+	background-image        : URL(../../icon/tlabs/or/checkMark_20x20.png);
+	display					: none;
+}
+
+.w3-tlabs-overview-header > div:last-child
+{
+	position				: relative;
+	height					: 72px;
+	width					: 72px;
+	left					: 50%;
+	margin-left				: -36px;
+}

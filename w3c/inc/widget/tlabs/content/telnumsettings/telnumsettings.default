@@ -1,0 +1,10 @@
+{
+	"i18n"	   : "phone_lineset_rufnr",
+	"i18nHide" : "phone_lineset_title4_2",
+	"style":
+	{
+		"position" : "relative",
+		"width"    : "452px"
+	},
+    "Register" : ["dataSource"]
+}

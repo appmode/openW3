@@ -1,0 +1,9 @@
+<select id="{{widget.id}}_Value">
+	{% for option in widget.options %}
+		<option value="{{option.value}}" {{option.i18n|dataI18n}}>{{option.title|optional}}</option>
+	{% endfor %}
+</select>
+
+<label for="{{widget.id}}_Value" {{widget.i18n|dataI18n}}>{{widget.label|optional}}</label>
+
+

@@ -1,0 +1,10 @@
+{
+	"style":
+	{
+		"position" : "relative",
+		"width"    : "455px",
+		"marginBottom"		: "0"
+	},
+	"Register" : ["dataSource"],
+    "dataMemberType" : "output"
+}

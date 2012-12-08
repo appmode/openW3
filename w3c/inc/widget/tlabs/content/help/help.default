@@ -1,0 +1,9 @@
+{
+	"style":
+	{
+		"position" : "relative",
+		"width"    : "470px"
+	},
+	"i18nClose"	: "close_helpme",
+	"i18nTitle"	: "helpmeWhatDoesThatMean"
+}

@@ -1,0 +1,21 @@
+
+/* TITLE BLOCK */
+.w3-tlabs-content-helptrigger
+{
+
+}
+
+/* TITLE */
+.w3-tlabs-content-helptrigger span[data-action]
+{
+	color				: #6c6c6c;
+	font-weight			: normal;
+	text-decoration		: underline;	
+}
+
+/* TITLE HOVER */
+.w3-tlabs-content-helptrigger span[data-action]:hover
+{
+	color				: #e20074;
+	cursor				: pointer;
+}

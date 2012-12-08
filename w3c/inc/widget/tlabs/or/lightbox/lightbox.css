@@ -1,0 +1,16 @@
+.w3-tlabs-or-lightbox > div:first-child
+{
+	background-color	: #000000;
+	opacity				: 0.75;
+	font-family			: "Arial", sans-serif;
+}
+
+.w3-tlabs-or-lightbox > div
+{
+	position			: absolute;
+	top					: 0px;
+	bottom				: 0px;
+	left				: 0px;
+	right				: 0px;
+	overflow			: hidden;
+}

@@ -1,0 +1,120 @@
+.w3-tlabs-howto-txt
+{
+	clear					: both;
+	padding					: 4px 12px;
+	width					: 672px;
+}
+
+.w3-tlabs-howto-txt a,
+.w3-tlabs-howto-txt_nav
+{
+	font-size				: 12px;
+	color					: #507080;
+	text-decoration			: none;
+	outline					: none;
+	cursor					: pointer;
+}
+
+.w3-tlabs-howto-txt > div:first-child
+{
+	font-weight				: bold;
+	font-size				: 12px;
+	color					: #4B4B4B;
+}
+
+/* HELP CONTENT */
+.w3-tlabs-howto-txt > div:last-child > div 
+{
+	background-color	: #ededed;
+	padding				: 0 8px;
+	margin-left			: 12px;
+	margin-top			: 4px;
+}
+
+.w3-tlabs-howto-txt > div:last-child > div img
+{
+	display				: block;
+}
+
+.w3-tlabs-howto-txt > div:last-child > div ul
+{
+	margin				: 0;
+	padding				: 0;
+	padding-left		: 10px;
+}
+
+.w3-tlabs-howto-txt > div:last-child > div li
+{
+	margin				: 0;
+	padding				: 0;
+	padding-left		: 4px;
+	margin-left			: 10px;
+	list-style			: none;
+	list-style-type		: circle;
+	list-style-position	: outside;
+}
+
+/* HELP TITLE (link) */
+.w3-tlabs-howto-txt_help
+{
+	color				: #6c6c6c;
+	font-weight			: normal;
+	text-decoration		: underline;	
+}
+.w3-tlabs-howto-txt_help:hover
+{
+	color				: #507080;
+	cursor				: pointer;
+}
+
+/* HELP BLOCK : HIDE */
+.w3-tlabs-howto-txt_hide
+{
+	overflow			: hidden;
+	max-height			: 0px;
+	opacity				: 0;
+	transition			: max-height 1s, opacity 1.5s;
+	-o-transition		: max-height 1s, opacity 1.5s;
+	-moz-transition		: max-height 1s, opacity 1.5s;
+	-webkit-transition	: max-height 1s, opacity 1.5s;
+}
+
+/* HELP BLOCK : SHOW */
+.w3-tlabs-howto-txt_show
+{
+	overflow			: hidden;
+	max-height			: 800px;
+	opacity             : 1;
+	transition			: max-height 2s, opacity 0.7s;
+	-o-transition		: max-height 2s, opacity 0.7s;
+	-moz-transition		: max-height 2s, opacity 0.7s;
+	-webkit-transition	: max-height 2s, opacity 0.7s;
+}
+
+/* HELP BLOCK CONTENT */
+.w3-tlabs-howto-txt > div:last-child > div > span:first-child
+{
+	display				: block;
+	padding				: 4px 0;
+}
+
+/* HELP BLOCK CLOSE BLOCK */
+.w3-tlabs-howto-txt > div:last-child > div > span:last-child
+{
+	display				: block;
+	padding				: 4px 0;
+	text-align			: right;
+}
+
+/* HELP BLOCK CLOSE */
+.w3-tlabs-howto-txt > div:last-child > div > span:last-child > span
+{
+	color 				: #e42185;
+	cursor				: pointer;
+}
+
+/* HELP BLOCK CLOSE HOVER */
+.w3-tlabs-howto-txt > div:last-child > div > span:last-child span:hover
+{
+	text-decoration		: underline;
+}

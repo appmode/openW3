@@ -1,0 +1,51 @@
+.w3-tlabs-content-notification
+{
+	padding-left			: 12px;
+	padding-right			: 12px;
+	padding-top				: 7px;
+	padding-bottom			: 8px;
+}
+
+.w3-tlabs-content-notification > div:first-child
+{
+	display					: none;
+	position				: absolute;
+	top						: 3px;
+	left					: 0px;
+	height					: 30px;
+	width					: 30px;
+	background-image		: URL(../../icon/tlabs/or/status_20x20.png);
+	background-repeat		: no-repeat;
+	background-position		: 0px 0px;
+}
+
+.w3-tlabs-content-notification.w3_status_ok > div:first-child
+{
+	display					: block;
+	background-position		: 0px 0px;
+}
+
+.w3-tlabs-content-notification.w3_status_info > div:first-child
+{
+	display					: block;
+	background-position		: 0px -30px;
+}
+
+.w3-tlabs-content-notification.w3_status_warn > div:first-child
+{
+	display					: block;
+	background-position		: 0px -60px;
+}
+
+.w3-tlabs-content-notification.w3_status_eror > div:first-child
+{
+	display					: block;
+	background-position		: 0px -90px;
+}
+
+.w3-tlabs-content-notification > div + div
+{
+	padding-top				: 2px;
+	padding-left			: 40px;
+	min-height				: 36px;
+}

@@ -1,0 +1,50 @@
+.w3-tlabs-content-message_template
+{
+	visibility				: hidden;
+	display					: none;
+	height					: 0px;
+	width					: 0px;
+}
+
+/* BLOCK */
+.w3-tlabs-content-message
+{
+	border 					: 1px solid #8e8e8e;
+	-moz-border-radius 		: 3px;
+	-webkit-border-radius	: 3px;
+	border-radius 			: 3px;
+	margin 					: 10px auto 0;
+	-moz-box-shadow 		: inset 0px 0px 3px #5b5b5b;
+	-webkit-box-shadow 		: inset 0px 0px 3px #5b5b5b;
+	box-shadow 				: inset 0px 0px 3px #5b5b5b;
+	padding 				: 5px;
+}
+
+/* CONTENT */
+.w3-tlabs-content-message > div
+{
+	width 					: 100%;
+	min-height 				: 100%;
+	height 					: auto !important;
+	height 					: 100%;
+}
+
+.w3-tlabs-content-message > div > div
+{
+	clear					: both;
+}
+
+.w3-tlabs-content-message > div > div > span
+{
+	display					: block;
+	width					: 130px;
+	float					: left;
+	margin-bottom			: 7px;
+}
+
+.w3-tlabs-content-message > div > div > span + span
+{
+	display					: block;
+	width					: 290px;
+	float					: left;
+}

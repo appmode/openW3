@@ -1,0 +1,58 @@
+.w3-tlabs-or-security
+{
+	color					: #4B4B4B;
+}
+
+.w3-tlabs-or-security > span
+{
+	font-family				: "Arial", sans-serif;
+	font-weight				: bold;
+	font-size				: 11px;
+	
+	padding-top				: 13px;
+	display					: block;
+}
+
+.w3-tlabs-or-security > div
+{
+	position				: relative;
+	padding-left			: 20px;
+	margin-top				: 7px;
+	min-height				: 16px;
+}
+
+.w3-tlabs-or-security > div > div
+{
+	position				: absolute;
+	left					: 0px;
+	top						: 0px;
+	background-repeat		: no-repeat;
+	background-image		: url(../../icon/tlabs/or/securityStatus.png);
+	height					: 16px;
+	width					: 16px;
+	background-position		: 0px -16px;
+}
+
+.w3-tlabs-or-security.w3_high > div > div
+{
+	background-position		: 0px 0px;
+}
+
+.w3-tlabs-or-security.w3_low > div > div
+{
+	background-position		: 0px -16px;
+}
+
+.w3-tlabs-or-security > div > span
+{
+	font-size				: 11px;
+	font-weight				: normal;
+	color					: #4B4B4B;
+	line-height				: 16px;
+	cursor					: pointer;
+}
+
+.w3-tlabs-or-security > div > span:hover
+{
+	color					: #507080;
+}

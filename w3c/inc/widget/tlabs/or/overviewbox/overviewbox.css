@@ -1,0 +1,27 @@
+.w3-tlabs-or-overviewbox
+{
+	background-color	: #ffffff;
+	font-family			: "Arial", sans-serif;
+	font-size			: 12px;
+	line-height			: 15px;
+	
+	transition			: visibility 0.7s, opacity 0.7s;
+	-o-transition		: visibility 0.7s, opacity 0.7s;
+	-moz-transition		: visibility 0.7s, opacity 0.7s;
+	-webkit-transition	: visibility 0.7s, opacity 0.7s;
+	opacity				: 0;
+}
+
+.w3-tlabs-or-overviewbox.w3_show
+{
+	transition			: opacity 0.5s;
+	-o-transition		: opacity 0.5s;
+	-moz-transition		: opacity 0.5s;
+	-webkit-transition	: opacity 0.5s;
+}
+
+.w3-tlabs-or-overviewbox_Content
+{
+	position			: relative;
+	width				: 100%;
+}

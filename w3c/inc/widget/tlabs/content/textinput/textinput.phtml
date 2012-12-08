@@ -1,0 +1,10 @@
+<div id="{{widget.id}}_error" {{widget.i18nError|dataI18n}}></div>
+<input type="text" id="{{widget.id}}_Value" value="{{widget.label|optional}}">
+<label for="{{widget.id}}_Value" {{widget.i18n|dataI18n}}>{{widget.label|optional}}</label>
+{% if children %}
+<div id = "{{ widget.id }}_Content"
+	class = "{{ widget.className }}_Content"
+>
+	{{ children|indent:1 }}
+</div>
+{% endif %}

@@ -1,0 +1,14 @@
+<span {{widget.i18n|dataI18n}}>{{widget.title|optional}}</span>
+<div>
+	<div>
+		<div></div>
+		<div>
+			<ul>
+				{% for button in widget.buttons %}
+				<li data-target="{{button.view|optional}}" {{button.i18n|dataI18n}}>{{button.title|optional}}</li>
+				{% endfor %}
+			</ul>
+		</div>
+		<div></div>
+	</div>
+</div>

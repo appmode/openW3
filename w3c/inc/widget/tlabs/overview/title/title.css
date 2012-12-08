@@ -1,0 +1,16 @@
+.w3-tlabs-overview-title
+{
+	text-align				: left;
+	padding-bottom			: 15px;
+	padding-left			: 15px;
+	padding-right			: 15px;
+}
+
+.w3-tlabs-overview-title > span
+{
+	font-weight				: bold;
+	margin-top				: 2px;
+	font-size				: 12px;
+	line-height				: 15px;
+	display					: block;
+}

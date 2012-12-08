@@ -1,0 +1,5 @@
+{
+    "Register"       : ["dataSource"],
+    "dataMemberType" : "output",
+    "dataField"      : "up"
+}

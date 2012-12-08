@@ -1,0 +1,23 @@
+<table border="0" cellspacing="0" cellpadding="0">
+	<thead>
+		<tr>
+			<td></td>
+			<td {{widget.i18n.s1|dataI18n}}></td>
+			<td {{widget.i18n.s2|dataI18n}}></td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr id="{{widget.id}}_all">
+			<td width="148" {{widget.i18n.all|dataI18n}}></td>
+			<td><input type="checkbox" data-action="all" data-socket="1" /></td>
+			<td><input type="checkbox" data-action="all" data-socket="2" /></td>
+		</tr>
+	</tbody>
+	<tbody id="{{widget.id}}_table"></tbody>
+</table>
+
+<div class="{{widget.className}}_template">
+	<table>
+		<tr id="{{widget.id}}_templateRow"><td></td><td><input type="checkbox" /></td><td><input type="checkbox" /></td></tr>
+	</table>
+</div>
