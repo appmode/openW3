@@ -24,7 +24,7 @@
 					"type"    : "tlabs/overview/header",
 					"i18n"    : "category_internet",
 					"dataField"  : "up",
-					"iconSprite" : "icon/openW3/default/72x72.png",
+					"iconSprite" : "icon/openw3/default/72x72.png",
 					"iconFrame"  : 2
 				},
 				"title":
@@ -111,7 +111,7 @@
 					"type"    : "tlabs/overview/header",
 					"i18n"    : "category_phone",
 					"dataField"  : "????",
-					"iconSprite" : "icon/openW3/default/72x72.png",
+					"iconSprite" : "icon/openw3/default/72x72.png",
 					"iconFrame"  : 3
 				},
 				"title":
@@ -177,7 +177,7 @@
 					"type"       : "tlabs/overview/header",
 					"i18n"       : "category_lan",
 					"dataField"  : "????",
-					"iconSprite" : "icon/openW3/default/72x72.png",
+					"iconSprite" : "icon/openw3/default/72x72.png",
 					"iconFrame"  : 4
 				},
 				"title":

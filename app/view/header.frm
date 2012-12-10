@@ -15,9 +15,9 @@
 			"type"  : "tlabs/or/brand",
 			"style" : 
 			{
-				"backgroundImage" : "image/openW3/default/logo/logoBg.gif"
+				"backgroundImage" : "image/openw3/default/logo/logoBg.png"
 			},
-			"logoImage" : "image/openW3/default/logo/t.gif",
+			"logoImage" : "image/openw3/default/logo/logo.png",
 			"homeUrl"   : "",
 			"links":
 			[
@@ -51,8 +51,8 @@
 				"top" : "60px"
 			},
 			"title" : "T-Labs Open Router",
-			"iconSprite" : "icon/openW3/default/30x30.png",
-			"backgroundSprite" : "image/openW3/default/nav.sprite.png",
+			"iconSprite" : "icon/openw3/default/30x30.png",
+			"backgroundSprite" : "image/openw3/default/nav.sprite.png",
 			"homeUrl"   : "",
 			"buttons":
 			[
