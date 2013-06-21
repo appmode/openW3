@@ -39,7 +39,7 @@
 /* TITLE HOVER */
 .w3-tlabs-content-help > div:first-child > span[data-action]:hover
 {
-	color				: #e20074;
+	color				: #3f90b6;
 	cursor				: pointer;
 }
 
@@ -92,7 +92,7 @@
 /* HIDDEN BLOCK CLOSE */
 .w3-tlabs-content-help > div:last-child > span:last-child > span
 {
-	color 				: #e42185;
+	color 				: #3f90b6;
 	cursor				: pointer;
 }
 

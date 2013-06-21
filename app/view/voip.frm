@@ -71,7 +71,8 @@
 					"dataSource" : "voip",
 					"style"	:
 					{
-						"width"	  : "442px"
+						"width"	   : "442px",
+						"position" : "relative"
 					}
 				}
 			}

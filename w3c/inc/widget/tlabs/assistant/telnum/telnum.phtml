@@ -1,0 +1,10 @@
+<div id="{{widget.id}}_view"><div class="{{widget.className}}_view"></div>
+	<!--<span data-action="change" {{widget.i18n.change|dataI18n}}></span>-->
+</div>
+<div id="{{widget.id}}_edit"><div class="{{widget.className}}_edit"></div>
+	<span><span data-action="add" {{widget.i18n.add|dataI18n}}></span></span>
+</div>
+<div id="" class="{{widget.className}}_template">
+	<div id="{{widget.id}}_templateView"><span><span {{widget.i18n.number|dataI18n}}></span><span></span></span><span></span><span {{widget.i18n.activate|dataI18n}} data-action="activate"></span><span {{widget.i18n.deactivate|dataI18n}} data-action="deactivate"></span><span {{widget.i18n.delete|dataI18n}} data-action="delete"></span></div>
+	<div id="{{widget.id}}_templateEdit"><input type="text" {{widget.i18n.default|dataI18n}} /><label {{widget.i18n.numberFull|dataI18n}}></label></div>
+</div>

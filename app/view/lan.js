@@ -7,7 +7,7 @@
  */
 //----------------------------------------------------------------------------//
 
-ui.lan.fraAddress.btnSave.confirmAction = function($strAction)
+ui.lan.btnSave.confirmAction = function($strAction)
 {
 	switch ($strAction)
 	{

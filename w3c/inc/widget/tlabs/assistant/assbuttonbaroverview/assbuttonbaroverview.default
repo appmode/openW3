@@ -1,0 +1,34 @@
+{
+	"style":
+	{
+		"position" 		: "absolute",
+		"bottom"		: "0px"
+	},
+	"buttons":
+	[
+		{
+			"action" : "back",
+			"i18n"   : "btn_back"
+		},
+		{
+			"action" : "cancel",
+			"i18n"   : "btn_break"
+		},
+		{
+			"action" : "save",
+			"i18n"   : "btn_next"
+		}
+	],
+	"status":
+	{
+		"none"  : "",
+		"wait"  : "",
+		"ok"    : "",
+		"info"  : "hint_dataSaved",
+		"warn"  : "",
+		"error" : "error_message_generalnvalid"
+	},
+    "Register"       : ["dataSource"],
+    "dataMemberType" : "output",
+    "dataField"      : "*"
+}

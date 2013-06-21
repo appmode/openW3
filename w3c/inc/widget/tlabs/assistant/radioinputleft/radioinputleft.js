@@ -1,0 +1,1 @@
+//#EXTENDS tlabs/content/radioinput

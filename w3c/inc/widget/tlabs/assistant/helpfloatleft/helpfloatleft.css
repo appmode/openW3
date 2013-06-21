@@ -1,0 +1,104 @@
+.w3-tlabs-assistant-helpfloatleft img
+{
+	display				: block;
+}
+
+.w3-tlabs-assistant-helpfloatleft ul
+{
+	margin				: 0;
+	padding				: 0;
+	padding-left		: 10px;
+}
+
+.w3-tlabs-assistant-helpfloatleft li
+{
+	margin				: 0;
+	padding				: 0;
+	padding-left		: 4px;
+	margin-left			: 10px;
+	list-style			: none;
+	list-style-type		: circle;
+	list-style-position	: outside;
+}
+
+/* TITLE BLOCK */
+.w3-tlabs-assistant-helpfloatleft > div:first-child
+{
+	text-align			: left;
+	margin		 		: 6px;
+	margin-left			: 16px;
+}
+
+/* TITLE */
+.w3-tlabs-assistant-helpfloatleft > div:first-child > span[data-action]
+{
+	color				: #6c6c6c;
+	font-weight			: normal;
+	text-decoration		: underline;	
+}
+
+/* TITLE HOVER */
+.w3-tlabs-assistant-helpfloatleft > div:first-child > span[data-action]:hover
+{
+	color				: #3f90b6;
+	cursor				: pointer;
+}
+
+/* HIDDEN BLOCK */
+.w3-tlabs-assistant-helpfloatleft > div:last-child
+{
+	background-color	: #ededed;
+	padding				: 0 8px;
+	margin-left			: 12px;
+	overflow			: hidden;
+}
+
+/* HIDDEN BLOCK : HIDE */
+.w3-tlabs-assistant-helpfloatleft_hide
+{
+	max-height			: 0px;
+	opacity				: 0;
+	transition			: max-height 1s, opacity 1.5s;
+	-o-transition		: max-height 1s, opacity 1.5s;
+	-moz-transition		: max-height 1s, opacity 1.5s;
+	-webkit-transition	: max-height 1s, opacity 1.5s;
+}
+
+/* HIDDEN BLOCK : SHOW */
+.w3-tlabs-assistant-helpfloatleft_show
+{
+	max-height			: 800px;
+	opacity             : 1;
+	transition			: max-height 2s, opacity 0.7s;
+	-o-transition		: max-height 2s, opacity 0.7s;
+	-moz-transition		: max-height 2s, opacity 0.7s;
+	-webkit-transition	: max-height 2s, opacity 0.7s;
+}
+
+/* HIDDEN BLOCK CONTENT */
+.w3-tlabs-assistant-helpfloatleft > div:last-child > span:first-child
+{
+	display				: block;
+	padding				: 4px 0;
+}
+
+/* HIDDEN BLOCK CLOSE BLOCK */
+.w3-tlabs-assistant-helpfloatleft > div:last-child > span:last-child
+{
+	display				: block;
+	padding				: 4px 0;
+	text-align			: right;
+}
+
+/* HIDDEN BLOCK CLOSE */
+.w3-tlabs-assistant-helpfloatleft > div:last-child > span:last-child > span
+{
+	color 				: #3f90b6;
+	cursor				: pointer;
+}
+
+/* HIDDEN BLOCK CLOSE HOVER */
+.w3-tlabs-assistant-helpfloatleft > div:last-child > span:last-child span:hover
+{
+	text-decoration		: underline;
+}

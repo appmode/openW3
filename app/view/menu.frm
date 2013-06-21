@@ -7,7 +7,8 @@
 		"top"      : "140px",
 		"height"   : "200px",
 		"width"    : "216px",
-		"overflow" : "visible"
+		"overflow" : "visible",
+		"backgroundColor" : "transparent"
 	},
 	"Children":
 	{

@@ -16,7 +16,7 @@
 		"txtLogin1":
 		{
 			"type"  : "tlabs/content/text",
-			"value" : [null, "T-Labs Open Router"],
+			"value" : [null, "openW3 Router"],
 			"i18n"  : ["login_content_1", null, "login_content_2"]
 		},
 		"txtLogin2":

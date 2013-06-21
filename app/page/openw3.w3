@@ -17,15 +17,26 @@
 		"settingsProblems" : true,
 		"settingsPwd"      : true,
 		"login"            : true,
-		"infoReboot"       : true,
-		"confirm"          : true,
-		"alert"            : true,
-		"howToLanAdd"            : false,
-		"howToWirelessAdd"       : false,
-		"howToVoipDect"          : false,
-		"howToVoipManage"        : false,
-		"howToWanCustomerCenter" : false,
-		"howToWanFirewall"       : false
+		"assistStepin"            : true,
+		"assistWan"               : true,
+		"assistWanDone"           : true,
+		"assistVoip"              : true,
+		"assistVoipAssignDefault" : true,
+		"assistVoipAssignIn"      : true,
+		"assistVoipAssignOut"     : true,
+		"assistVoipDone"          : true,
+		"assistWireless"          : true,
+		"assistWirelessData"      : true,
+		"assistWirelessDone"      : true,
+		"infoReboot"              : true,
+		"confirm"                 : true,
+		"alert"                   : true,
+		"howToLanAdd"             : false,
+		"howToWirelessAdd"        : false,
+		"howToVoipDect"           : false,
+		"howToVoipManage"         : false,
+		"howToWanCustomerCenter"  : false,
+		"howToWanFirewall"        : false
 		
 	},
 	"js":
@@ -61,5 +72,17 @@
 	{
 		"target"   : "openW3"
 	},
-	"html" : ""
+	"i18n":
+	{
+		"en"   : true,
+		"de"   : true
+	},
+	"html" : "openW3",
+	"script" :
+	{
+		"body" :
+		{
+			"openW3" : true
+		}
+	}
 }

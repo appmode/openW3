@@ -1,9 +1,10 @@
 {
 	"style":
 	{
-		"position" : "relative",
+		"position" : "absolute",
 		"width"    : "455px",
-		"marginBottom"		: "0"
+		"marginBottom"		: "0",
+		"bottom"   : "0px"
 	},
 	"buttons":
 	[

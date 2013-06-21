@@ -1,1 +1,7 @@
-
+body
+{
+	height : 100%;
+	background-color : #ffffff;
+	background-image : URL(/image/openw3/default/background/hexgrid-light_65.png);
+	margin	: 0px;
+}

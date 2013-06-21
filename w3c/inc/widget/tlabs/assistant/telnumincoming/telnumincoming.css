@@ -1,0 +1,34 @@
+/* template area */
+.w3-tlabs-assistant-telnumincoming_template
+{
+	visibility				: hidden;
+	display					: none;
+	height					: 0px;
+	width					: 0px;	
+}
+
+.w3-tlabs-assistant-telnumincoming > div
+{
+	margin					: 10px 0 10px 15px;
+	border: 1px solid #BCBCBC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15) inset;
+    top:0px;
+    position:absolute;
+    width : 138px;
+}
+
+.w3-tlabs-assistant-telnumincoming > div:nth-child(2)
+{
+	left: 146px;
+}
+
+/*.w3-tlabs-assistant-telnumincoming > div
+{
+	margin-top				: 2px;
+	
+}*/
+.w3-tlabs-assistant-telnumincoming > div > div
+{
+	margin-top				: -2px;
+}

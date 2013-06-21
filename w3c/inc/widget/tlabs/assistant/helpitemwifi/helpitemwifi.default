@@ -1,0 +1,12 @@
+{
+	"style":
+	{
+		"position" : "relative",
+		"width"    : "470px",
+		"display" : "none"
+	},
+	"i18nClose"	: "close_helpme",
+	"i18nTitle"	: "helpmeWhatDoesThatMean",
+	"Register" : ["dataSource"],
+    "dataMemberType" : "output"
+}

@@ -1,8 +1,8 @@
 {
-	"i18n"     : "overview_secureStatus_caption",
-	"i18nHigh" : "key_wlanEncrypted",
-	"i18nLow"  : "overview_secureStatus_wlanLessEncrypted",
-	"i18nNone" : "key_wlanNotEncrypted",
+	"i18n"     : "wireless_secureStatus_caption",
+	"i18nHigh" : "wireless_secureStatus_encrypted",
+	"i18nLow"  : "wireless_secureStatus_lessEncrypted",
+	"i18nNone" : "wireless_secureStatus_notEncrypted",
 	"securityLevels" :
 	{
 		"none"      : 0,

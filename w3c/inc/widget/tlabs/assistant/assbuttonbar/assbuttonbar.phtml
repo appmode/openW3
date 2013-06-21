@@ -1,0 +1,9 @@
+<div>
+	<div id="{{widget.id}}_loader" class="{{widget.className}}_loader"></div>
+	<div id="{{widget.id}}_status" class="{{widget.className}}_status"></div>
+</div>
+{% for button in widget.buttons %}
+	<button data-action="{{button.action|optional}}" type="{{button.type|optional}}">
+		<span data-action="{{button.action|optional}}" {{button.i18n|dataI18n}}>{{button.title|optional}}</span>
+	</button>
+{% endfor %}

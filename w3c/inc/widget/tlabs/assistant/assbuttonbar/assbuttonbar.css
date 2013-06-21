@@ -1,0 +1,156 @@
+/* BLOCK */
+.w3-tlabs-assistant-assbuttonbar
+{
+	margin					: 0px 2px 0px;
+	padding 				: 8px 20px 6px 10px;
+	border 					: 1px solid #D0D0D0;
+	border-left 			: 0;
+	border-right 			: 0;
+	border-bottom 			: 0;
+	text-align 				: right;
+	width					: 450px;
+}
+
+/* BUTTON */
+.w3-tlabs-assistant-assbuttonbar > button
+{
+	-moz-box-shadow 		: 0px 1px 0px 0px #c2c2c2;
+	-webkit-box-shadow		: 0px 1px 0px 0px #c2c2c2;
+	box-shadow 				: 0px 1px 0px 0px #c2c2c2;
+	background 				: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #e8e8e8) );
+	background 				: -moz-linear-gradient( center top, #ffffff 5%, #e8e8e8 100% );
+	filter 					: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e8e8e8');
+	background-color 		: #ffffff;
+	-moz-border-radius 		: 3px;
+	-webkit-border-radius	: 3px;
+	border-radius 			: 3px;
+	border 					: 1px solid #eaeaea;
+	display 				: inline-block;
+	color 					: #515151;
+	font-size 				: 12px;
+	cursor 					: pointer;
+	font-weight 			: normal;
+	padding 				: 2px 6px;
+	min-width				: 100px;
+	text-decoration 		: none;
+	text-shadow 			: 1px 1px 0px #ffffff;
+}
+/* BACK BUTTON */
+.w3-tlabs-assistant-assbuttonbar > button:nth-child(2)
+{
+	float:left;
+}
+
+/* BUTTON : wait */
+.w3-tlabs-assistant-assbuttonbar.w3_status_wait > button
+{
+	cursor					: wait;
+	color 					: #919191;
+}
+
+/* SAVE BUTTON */
+.w3-tlabs-assistant-assbuttonbar > button:last-child
+{
+	font-weight 			: bold;
+}
+
+/* BUTTON HOVER */
+.w3-tlabs-assistant-assbuttonbar > button:hover
+{
+	background 				: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #d9d9d9) );
+	background 				: -moz-linear-gradient( center top, #ffffff 5%, #d9d9d9 100% );
+	filter 					: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9');
+	color    				: #3f90b6;
+}
+
+/* BUTTON HOVER : wait */
+.w3-tlabs-assistant-assbuttonbar.w3_status_wait > button:hover
+{
+	background 				: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #e8e8e8) );
+	background 				: -moz-linear-gradient( center top, #ffffff 5%, #e8e8e8 100% );
+	filter 					: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e8e8e8');
+	color 					: #919191;
+}
+
+/* loader */
+.w3-tlabs-assistant-assbuttonbar_loader
+{
+	display					: none;
+	position				: absolute;
+	left					: 0px;
+	top						: 50%;
+	margin-top				: -5px;
+	height					: 11px;
+	width					: 16px;
+	background-image		: URL(../../image/tlabs/loader/bars_16x11.gif);
+}
+
+.w3-tlabs-assistant-assbuttonbar.w3_status_wait .w3-tlabs-assistant-assbuttonbar_loader
+{
+	display					: block;
+}
+
+/* status */
+.w3-tlabs-assistant-assbuttonbar_status
+{
+	display					: none;
+	position				: absolute;
+	left					: 0px;
+	top						: 50%;
+	margin-top				: -10px;
+	height					: 20px;
+	line-height				: 20px;
+	background-image		: URL(../../icon/tlabs/or/status_20x20.png);
+	background-repeat		: no-repeat;
+	background-position		: 0px 0px;
+	padding-left			: 23px;
+	text-align				: left;
+}
+
+.w3-tlabs-assistant-assbuttonbar.w3_status_ok .w3-tlabs-assistant-assbuttonbar_status
+{
+	display					: block;
+	background-position		: 0px 0px;
+}
+
+.w3-tlabs-assistant-assbuttonbar.w3_status_info .w3-tlabs-assistant-assbuttonbar_status
+{
+	display					: block;
+	background-position		: 0px -20px;
+}
+
+.w3-tlabs-assistant-assbuttonbar.w3_status_warn .w3-tlabs-assistant-assbuttonbar_status
+{
+	display					: block;
+	background-position		: 0px -40px;
+}
+
+.w3-tlabs-assistant-assbuttonbar.w3_status_error .w3-tlabs-assistant-assbuttonbar_status
+{
+	display					: block;
+	background-position		: 0px -60px;
+	color					: red;
+	font-weight				: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

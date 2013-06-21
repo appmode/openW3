@@ -28,7 +28,7 @@
 /* CHANGE PROVIDER LINK */
 .w3-tlabs-content-telnum > div > span
 {
-	color					: #e42185;
+	color					: #3f90b6;
 	cursor 					: pointer;
 	padding-top 			: 8px;
 }
@@ -86,7 +86,7 @@
 	position				: absolute;
 	left					: 216px;
 	top						: 0px;
-	color					: #e42185;
+	color					: #3f90b6;
 	cursor 					: pointer;
 }
 .w3-tlabs-content-telnum_view > div > span:nth-child(3):hover,
@@ -171,7 +171,7 @@
 .w3-tlabs-content-telnum > div > span > span
 {
 	display					: block;
-	color					: #e42185;
+	color					: #3f90b6;
 	margin-top 				: 8px;
 	margin-left 			: 222px;
 	padding-left 			: 16px;

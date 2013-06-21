@@ -1,0 +1,20 @@
+<div>
+	{{widget.itemNumber}} {{widget.i18nPrefix|spanI18n}} 
+	<span {{widget.i18nTitle|dataI18n}} data-action="swap">{{widget.title|optional}}</span>
+	{{widget.i18nSuffix|spanI18n}}<span id="{{widget.id}}_Value"></span>{{widget.suffix}}
+</div>
+
+<div class="{{widget.className}}_hide" id="{{widget.id}}_hidden">
+	<span {{widget.i18n|dataI18n}}>
+		{{widget.value|optional}}
+	</span>
+	{% if widget.src %}
+		<img src="{{widget.src}}" alt="{{widget.alt|optional}}"/>
+	{% endif %}
+	<span>
+		<span {{widget.i18nClose|dataI18n}} data-action="hide">
+			{{widget.close|optional}}	
+		</span>
+	</span>
+</div>
+

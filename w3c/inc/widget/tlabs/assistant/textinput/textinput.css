@@ -1,0 +1,64 @@
+/* BLOCK */
+.w3-tlabs-assistant-textinput
+{
+	padding					: 4px 0 4px 15px;
+}
+
+/* ????
+.w3-tlabs-assistant-textinput.w3_error > div:last-child
+{
+	clear : both;
+}
+*/
+
+/* INPUT */
+.w3-tlabs-assistant-textinput > input
+{
+	float					: right;
+	width					: 128px;
+	border 					: 1px solid #bcbcbc;
+	color					: #5b5b5b;
+	padding					: 3px 5px;
+	-moz-border-radius		: 3px;
+	-webkit-border-radius	: 3px;
+	border-radius 			: 3px;
+	-webkit-box-shadow		: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow			: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15);      
+    box-shadow 				: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* LABEL */
+.w3-tlabs-assistant-textinput > label
+{
+	float					: left;
+	padding-top				: 7px;
+	cursor					: pointer;
+}
+
+/* CHILD CONTENT (HELP TRIGGER) */
+.w3-tlabs-assistant-textinput_Content
+{
+	float					: left;
+	padding-top				: 7px;
+	padding-left			: 3px;
+}
+
+/* ERROR */
+.w3-tlabs-assistant-textinput.w3_error > input
+{
+	border					: 1px solid red;
+}
+.w3-tlabs-assistant-textinput > div:first-child
+{
+	display					: none;
+	background-image		: URL(../../icon/tlabs/or/status_12x12.png);
+	background-repeat		: no-repeat;
+	background-position		: left center;
+	padding-left			: 15px;
+}
+.w3-tlabs-assistant-textinput.w3_error > div:first-child
+{
+	color					: red;
+	display					: block;
+	background-position		: 0px -36px;
+}

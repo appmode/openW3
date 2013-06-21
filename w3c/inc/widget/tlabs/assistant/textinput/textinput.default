@@ -1,0 +1,9 @@
+{
+	"style":
+	{
+		"position" : "relative",
+		"width"    : "138px"
+	},
+	"i18nError" : "error_message_generalnvalid",
+    "Register"  : ["dataSource"]
+}

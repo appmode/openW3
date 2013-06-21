@@ -45,7 +45,7 @@ w3.i18n.guessLanguage('en', ['en', 'de']);
 W3_app_module = function()
 {
 	// define app version
-	this.VERSION = '12.12.07';
+	this.VERSION = '13.06.20';
 
 	// module name
 	this.name	= 'application';
@@ -65,7 +65,7 @@ W3_app_module = function()
 		if (this._bolAuth == true)
 		{
 			// update menu
-			ui.orMenu.update($strName, $arrMenu);
+			ui.menu.update($strName, $arrMenu);
 		}
 	}
 	
@@ -73,7 +73,7 @@ W3_app_module = function()
 	this.unloadMenu = function()
 	{
 		// update menu
-		ui.orMenu.unloadMenu();
+		ui.menu.unloadMenu();
 		
 		// hide current content
 		if (this.wgtCurrentContent)
@@ -100,7 +100,7 @@ W3_app_module = function()
 	{
 		var $strTitle = this.w3.i18n.getTranslation($strI18nTitle);
 		var $strContent = this.w3.i18n.getTranslation($strI18nContent);
-		ui.orConfirm.show($wgtTarget, $strTitle, $strContent);
+		ui.confirm.show($wgtTarget, $strTitle, $strContent);
 	}
 	
 	// show the alert view
@@ -108,7 +108,7 @@ W3_app_module = function()
 	{
 		var $strTitle = this.w3.i18n.getTranslation($strI18nTitle);
 		var $strContent = this.w3.i18n.getTranslation($strI18nContent);
-		ui.orAlert.show($wgtTarget, $strTitle, $strContent);
+		ui.alert.show($wgtTarget, $strTitle, $strContent);
 	}
 	
 	// show current content view
@@ -118,9 +118,9 @@ W3_app_module = function()
 		if (this._bolAuth == true)
 		{
 			// get view name
-			//var $strName = ui.orMenu.getSelectedItem();
+			//var $strName = ui.menu.getSelectedItem();
 			if ($strName === undefined) {
-			    $strName = ui.orMenu.getSelectedItem();
+			    $strName = ui.menu.getSelectedItem();
 			}
 			
 			// hide current content
@@ -141,7 +141,7 @@ W3_app_module = function()
 		else
 		{
 			// navigate to nowhere
-			ui.orHeader.nav.navigateTo(null);
+			ui.header.nav.navigateTo(null);
 		}
 	}
 	
@@ -228,11 +228,11 @@ W3_app_module = function()
     {
 		if (this._bolAuth == true)
 		{
-            //ui.orHeader.nav.navigateTo($strSection);
-            //ui.orMenu.menu.navigateTo($strPage);
+            //ui.header.nav.navigateTo($strSection);
+            //ui.menu.menu.navigateTo($strPage);
 		    if ($strSection !== "assistant") {
-			    ui.orHeader.nav.navigateTo($strSection);
-			    ui.orMenu.menu.navigateTo($strPage);
+			    ui.header.nav.navigateTo($strSection);
+			    ui.menu.menu.navigateTo($strPage);
 			} else {
 			    this.showContent($strPage);
 			}
@@ -243,48 +243,49 @@ W3_app_module = function()
 	this.onlogin = function()
 	{
 		// hide login screen
-		ui.orLogin.hide();
+		ui.login.hide();
 		
 		// enable navigation
-		ui.orHeader.nav.enable();
+		ui.header.nav.enable();
 		
 		// remember that we are logged in
 		this._bolAuth = true;
 		
 		// forget the password
-		ui.orLogin.clear();
+		ui.login.clear();
 		
 		// refresh data
 		this.refreshData();
 		
 		// show security view
-		ui.orSecurity.show();
+		ui.security.show();
 		
 		// show default view (splash)
 		//TODO!!!!
+		
 	}
 	
 	// failed login event handler
 	this.onloginfail = function()
 	{
 //		console.log('login failed');
-		ui.orLogin.onloginfail();
+		ui.login.onloginfail();
 	}
 	
 	// logout event handler
 	this.onlogout = function()
 	{
 		// navigate to nowhere
-		ui.orHeader.nav.navigateTo(null);
+		ui.header.nav.navigateTo(null);
 		
 		// forget that we are logged in
 		this._bolAuth = false;
 		
 		// disable navigation
-		ui.orHeader.nav.disable();
+		ui.header.nav.disable();
 		
 		// show login page
-		ui.orLogin.show();
+		ui.login.show();
 	}
 }
 

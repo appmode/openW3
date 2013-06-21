@@ -14,7 +14,7 @@ TARGET_PATH     = "%s/compiled" % PWD
 
 APP_ENGINE_PATH = "%s/google_appengine" % PWD
 
-PAGE            = 'sample'
+PAGE            = 'openw3'
 
 #------------------------------------------------------------------------------#
 # import from w3 & AppEngine

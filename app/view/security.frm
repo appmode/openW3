@@ -8,7 +8,8 @@
 		"top"     : "140px",
 		"height"  : "200px",
 		"width"   : "225px",
-		"visible" : false
+		"visible" : false,
+		"backgroundColor" : "transparent"
 	},
 	"Children":
 	{

@@ -1,0 +1,8 @@
+<h1 {{widget.i18nTitle|dataI18n}}>{{widget.title|optional}}</h1>
+{% autoescape off%}
+<span id="{{widget.id}}_value">	
+{% for item in widget.i18n|zipLongest:widget.value %}
+	<span {{item.0|dataI18n}}>{{item.1|optional}}</span>
+{% endfor %}
+</span>
+{% endautoescape %}

@@ -5,8 +5,9 @@
 	"style":
 	{
 		"top"     : "0px",
-		"height"  : "200px",
-		"visible" : true
+		"height"  : "125px",
+		"visible" : true,
+		"overflow" : "visible"
 	},
 	"Children":
 	{
@@ -15,6 +16,7 @@
 			"type"  : "tlabs/or/brand",
 			"style" : 
 			{
+				"left" : "10px",
 				"backgroundImage" : "image/openw3/default/logo/logoBg.png"
 			},
 			"logoImage" : "image/openw3/default/logo/logo.png",
@@ -22,20 +24,20 @@
 			"links":
 			[
 				{
-					"title" : "Deutsch",
-					"url"   : "javascript:w3.i18n.setLanguage('de');"
-				},
-				{
 					"title" : "English",
 					"url"   : "javascript:w3.i18n.setLanguage('en');"
 				},
 				{
-					"i18n" : "key_customerCenter",
-					"url"   : "http://www.t-online.de/service/redir/aws_kc_telefonie.htm"
+					"title" : "Deutsch",
+					"url"   : "javascript:w3.i18n.setLanguage('de');"
 				},
 				{
-					"i18n" : "key_netManager",
-					"url"   : "http://www.t-online.de/service/redir/aws_netzmanager.htm"
+					"title" : "openW3",
+					"url"   : "https://github.com/appmode/openW3"
+				},
+				{
+					"title" : "openWRT",
+					"url"   : "https://openwrt.org/"
 				},
 				{
 					"i18n" : "logout",
@@ -48,9 +50,10 @@
 			"type"  : "tlabs/or/nav",
 			"style" : 
 			{
-				"top" : "60px"
+				"top"  : "60px",
+				"left" : "2px"
 			},
-			"title" : "T-Labs Open Router",
+			"title" : "openW3 Router",
 			"iconSprite" : "icon/openw3/default/30x30.png",
 			"backgroundSprite" : "image/openw3/default/nav.sprite.png",
 			"homeUrl"   : "",
@@ -65,47 +68,47 @@
 						{
 							"name"  : "overview",
 							"i18n"  : "",
-							"view"  : "orOverview"
+							"view"  : "overview"
 						}
 					]
 				},
 				{
 					"name" : "wan",
-					"i18n" : "category_internet",
+					"i18n" : "category_wan",
 					"iconFrame" : 2,
 					"menu"  :
 					[
 						{
 							"name"        : "wan",
-							"i18n"        : "nav_internet_connection",
-							"i18nTooltip" : "nav_internet_connection_tooltip",
-							"view"        : "orWan"
+							"i18n"        : "menu_wan",
+							"i18nTooltip" : "menu_wan_tooltip",
+							"view"        : "wan"
 						}
 					]
 				},
 				{
 					"name" : "voip",
-					"i18n" : "category_phone",
+					"i18n" : "category_voip",
 					"iconFrame" : 3,
 					"menu"  :
 					[
 						{
 							"name"        : "voip",
-							"i18n"        : "nav_phone_internet",
-							"i18nTooltip" : "nav_phone_internet_tooltip",
-							"view"        : "orVoip"
+							"i18n"        : "menu_voip",
+							"i18nTooltip" : "menu_voip_tooltip",
+							"view"        : "voip"
 						},
 						{
 							"name"        : "assign",
-							"i18n"        : "nav_phone_deviations",
-							"i18nTooltip" : "nav_phone_deviations_tooltip",
-							"view"        : "orVoipAssign"
+							"i18n"        : "menu_voip_assign",
+							"i18nTooltip" : "menu_voip_assign_tooltip",
+							"view"        : "voipAssign"
 						},
 						{
 							"name"        : "line",
-							"i18n"        : "nav_phone_lineset",
-							"i18nTooltip" : "nav_phone_lineset_tooltip",
-							"view"        : "orVoipLine"
+							"i18n"        : "menu_voip_line",
+							"i18nTooltip" : "menu_voip_line_tooltip",
+							"view"        : "voipLine"
 						}
 					]
 				},
@@ -117,48 +120,48 @@
 					[
 						{
 							"name"        : "wireless",
-							"i18n"        : "nav_wlan_basic",
-							"i18nTooltip" : "nav_wlan_basic_tooltip",
-							"view"        : "orWireless"
+							"i18n"        : "menu_wireless",
+							"i18nTooltip" : "menu_wireless_tooltip",
+							"view"        : "wireless"
 						},
 						{
 							"name"        : "lan",
-							"i18n"        : "nav_lan",
-							"i18nTooltip" : "nav_lan_tooltip",
-							"view"        : "orLan"
+							"i18n"        : "menu_lan",
+							"i18nTooltip" : "menu_lan_tooltip",
+							"view"        : "lan"
 						}
 					]
 				},
 				null,
 				{
 					"name" : "settings",
-					"i18n" : "category_router",
+					"i18n" : "category_settings",
 					"iconFrame" : 5,
 					"menu"  :
 					[
 						{
 							"name"        : "pwd",
-							"i18n"        : "config_pwd_caption",
-							"i18nTooltip" : "nav_router_pwd_tooltip",
-							"view"        : "orSettingsPwd"
+							"i18n"        : "menu_pwd",
+							"i18nTooltip" : "menu_pwd_tooltip",
+							"view"        : "settingsPwd"
 						},
 						{
 							"name"        : "problems",
-							"i18n"        : "config_problemHandling_caption",
-							"i18nTooltip" : "nav_router_problemHandling_tooltip",
-							"view"        : "orSettingsProblems"
+							"i18n"        : "menu_problems",
+							"i18nTooltip" : "menu_problems_tooltip",
+							"view"        : "settingsProblems"
 						},
 						{
 							"name"        : "info",
-							"i18n"        : "conf_sysinfo_caption",
-							"i18nTooltip" : "nav_router_sysInfo_tooltip",
-							"view"        : "orSettingsInfo"
+							"i18n"        : "menu_info",
+							"i18nTooltip" : "menu_info_tooltip",
+							"view"        : "settingsInfo"
 						},
 						{
 							"name"        : "modem",
-							"i18n"        : "conf_externalModem_caption",
-							"i18nTooltip" : "nav_router_externalModem_tooltip",
-							"view"        : "orSettingsModem"
+							"i18n"        : "menu_modem",
+							"i18nTooltip" : "menu_modem_tooltip",
+							"view"        : "settingsModem"
 						}
 					]
 				}

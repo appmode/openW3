@@ -93,16 +93,6 @@
 						"width"	: "442px"
 					}
 				},
-				"inpJointUserNo":
-				{
-					"type"       : "tlabs/content/jointusernumberinput",
-					"i18n"	     : "joint_user_number_label",
-					"dataField"  : "t_mbnr",
-					"style"	:
-					{
-						"width"	: "442px"
-					}
-				},
 				"inpPassword":
 				{
 					"type"  : "tlabs/content/passwordinput",
@@ -123,7 +113,8 @@
 					"type"  : "tlabs/content/buttonbar",
 					"style"	:
 					{
-						"width"	: "442px"
+						"width"	: "442px",
+						"position" : "relative"
 					},
 					"dataSource" : "wan",
 					"status":

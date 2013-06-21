@@ -74,7 +74,7 @@
 				{
 					"type"    : "tlabs/overview/action",
 					"i18n"    : "overview_linkToAssistant_internet",
-					"target"  : ["assistant", "orAssWan"],
+					"target"  : ["assistant", "assistWan"],
 					"style"   :
 					{
 						"position" : "absolute",
@@ -90,11 +90,11 @@
 					[
 						{
 							"i18n" : "overview_linkBox_internet_customerCare",
-							"view" : "orHowToWanCustomerCenter"
+							"view" : "howToWanCustomerCenter"
 						},
 						{
 							"i18n" : "overview_linkBox_internet_games",
-							"view" : "orHowToWanFirewall"
+							"view" : "howToWanFirewall"
 						}
 					]
 				}
@@ -140,7 +140,7 @@
 				{
 					"type"    : "tlabs/overview/action",
 					"i18n"    : "overview_linkToAssistant_phone",
-					"target"  : ["assistant", "orAssVoip"],
+					"target"  : ["assistant", "assistVoip"],
 					"style"   :
 					{
 						"position" : "absolute",
@@ -156,11 +156,11 @@
 					[
 						{
 							"i18n" : "overview_linkBox_phone_functions",
-							"view" : "orHowToVoipManage"
+							"view" : "howToVoipManage"
 						},
 						{
 							"i18n" : "overview_linkBox_phone_wireless",
-							"view" : "orHowToVoipDect"
+							"view" : "howToVoipDect"
 						}
 					]
 				}
@@ -265,7 +265,7 @@
 				{
 					"type"    : "tlabs/overview/action",
 					"i18n"    : "overview_linkToAssistant_network_wlan",
-					"target"  : ["assistant", "orAssWireless"],
+					"target"  : ["assistant", "assistWireless"],
 					"style"   :
 					{
 						"position" : "absolute",
@@ -281,11 +281,11 @@
 					[
 						{
 							"i18n" : "overview_linkBox_network_lan",
-							"view" : "orHowToLanAdd"
+							"view" : "howToLanAdd"
 						},
 						{
 							"i18n" : "overview_linkBox_network_wlan",
-							"view" : "orHowToWirelessAdd"
+							"view" : "howToWirelessAdd"
 						}
 					]
 				}

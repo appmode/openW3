@@ -1,0 +1,97 @@
+/* template area */
+.w3-tlabs-assistant-telnum_template
+{
+	visibility				: hidden;
+	display					: none;
+	height					: 0px;
+	width					: 0px;
+}
+
+.w3-tlabs-assistant-telnum > div
+{
+	xvisibility				: hidden;
+	xdisplay				: none;
+}
+
+.w3-tlabs-assistant-telnum > div.w3_select
+{
+	xvisibility				: inherit;
+	xdisplay					: block;
+}
+
+/* BLOCK */
+.w3-tlabs-assistant-telnum
+{
+	padding					: 0 0 0 15px;
+}
+
+/* CHANGE PROVIDER LINK */
+.w3-tlabs-assistant-telnum > div > span
+{
+	color					: #3f90b6;
+	cursor 					: pointer;
+	padding-top 			: 8px;
+}
+
+/* view container */
+.w3-tlabs-assistant-telnum_view
+{
+	display					: none;
+}
+
+/* ************************************************************************** */
+
+/* number container */
+.w3-tlabs-assistant-telnum_edit > div
+{
+	height					: 28px;
+	position				: relative;
+	padding 				: 2px 0;
+}
+
+/*
+.w3-tlabs-assistant-telnum > span
+{
+	padding-top 			: 8px;
+}*/
+
+/* INPUT */
+.w3-tlabs-assistant-telnum_edit > div > input
+{
+	float					: right;
+	width					: 210px;
+	border 					: 1px solid #bcbcbc;
+	color					: #5b5b5b;
+	padding					: 3px 5px;
+	-moz-border-radius		: 3px;
+	-webkit-border-radius	: 3px;
+	border-radius 			: 3px;
+	-webkit-box-shadow		: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow			: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15);      
+    box-shadow 				: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+}
+/* sip error */
+.w3-tlabs-assistant-telnum_edit > div.w3_error > input
+{
+	border					: 1px solid red;
+}
+
+/* LABEL */
+.w3-tlabs-assistant-telnum_edit > div > label
+{
+	position 				: relative;
+	top 					: 7px;
+	cursor					: pointer;
+}
+
+/* ADD LINK */
+.w3-tlabs-assistant-telnum > div > span > span
+{
+	display					: block;
+	color					: #3f90b6;
+	margin-top 				: 8px;
+	margin-left 			: 222px;
+	padding-left 			: 16px;
+	cursor 					: pointer;
+	background 				: transparent url('../../image/tlabs/content/pluss.gif') no-repeat 0 1px;
+}

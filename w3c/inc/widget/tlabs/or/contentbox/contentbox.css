@@ -1,6 +1,5 @@
 .w3-tlabs-or-contentbox
 {
-	background-color	: #ffffff;
 	font-family			: "Arial", sans-serif;
 	font-size			: 12px;
 	line-height			: 15px;
@@ -10,6 +9,16 @@
 	-moz-transition		: visibility 0.7s, opacity 0.7s;
 	-webkit-transition	: visibility 0.7s, opacity 0.7s;
 	opacity				: 0;
+	
+	border-radius		: 3px;
+	border				: 1px solid #aaaaaa;
+	background-color	: #ffffff;
+	box-shadow			: 3px 3px 3px #999999;
+}
+
+.w3-tlabs-or-contentbox_Content
+{
+	padding-bottom		: 50px;
 }
 
 .w3-tlabs-or-contentbox.w3_show
@@ -24,14 +33,14 @@
 {
 	position			: relative;
 	width				: 100%;
-	background-image	: URL(../../image/openw3/default/contentbox/middle.png);
+	xbackground-image	: URL(../../image/openw3/default/contentbox/middle.png);
 	min-height			: 200px;
 }
 
 .w3-tlabs-or-contentbox > div:first-child
 {
 	position			: relative;
-	background-image	: URL(../../image/openw3/default/contentbox/top.png);
+	xbackground-image	: URL(../../image/openw3/default/contentbox/top.png);
 	width				: 100%;
 	height				: 5px;
 }
@@ -39,7 +48,7 @@
 .w3-tlabs-or-contentbox > div:last-child
 {
 	position			: relative;
-	background-image	: URL(../../image/openw3/default/contentbox/bottom.png);
+	xbackground-image	: URL(../../image/openw3/default/contentbox/bottom.png);
 	width				: 100%;
 	height				: 9px;
 }

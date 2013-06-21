@@ -3,6 +3,11 @@
 */
 w3.i18n.loadLanguage("de", {
 
-key: "wert"
+key: "wert",
+
+category_overview   : "Übersicht",
+category_wan        : "WAN",
+category_lan        : "LAN",
+category_settings   : "Konfiguration"
 
 });

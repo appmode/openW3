@@ -1,0 +1,25 @@
+.w3-tlabs-assistant-helplightbox {
+	padding-left		: 12px;
+	padding-top			: 12px;
+}
+
+/* TITLE BLOCK */
+.w3-tlabs-assistant-helplightbox > div:first-child
+{
+	text-align			: left;
+}
+
+/* TITLE */
+.w3-tlabs-assistant-helplightbox > div:first-child > span[data-action]
+{
+	color				: #3f90b6;
+	font-weight			: normal;
+}
+
+/* TITLE HOVER */
+.w3-tlabs-assistant-helplightbox > div:first-child > span[data-action]:hover
+{
+	color				: #3f90b6;
+	cursor				: pointer;
+	text-decoration		: underline;
+}

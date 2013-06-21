@@ -1,0 +1,96 @@
+.w3-tlabs-assistant-header {
+	position: relative;
+	margin-left: 8px;
+	padding-top:4px;
+	height: 42px;
+	width: 475px;
+	/*clear:both;*/
+}
+
+.w3-tlabs-assistant-header img, .w3-tlabs-assistant-header div, .w3-tlabs-assistant-header span {
+	position: absolute;
+}
+
+.w3-tlabs-assistant-header span {
+	top: 8px;
+	color: #A4A4A4;
+	font-size: 11px;
+	z-index:100;
+}
+
+.w3-tlabs-assistant-header_step1Title, .w3-tlabs-assistant-header_step2Title {
+	background: transparent;
+}
+.w3-tlabs-assistant-header_step1Title {
+	left: 10px;
+}
+
+.w3-tlabs-assistant-header_step2Title {
+	left: 250px;
+}
+
+.w3-tlabs-assistant-header_left {
+	left: 0px;
+}
+
+.w3-tlabs-assistant-header_step1 {
+	left: 4px;
+}
+
+.w3-tlabs-assistant-header_step12 {
+	left: 225px;
+}
+
+.w3-tlabs-assistant-header_step2 {
+	left: 243px;
+}
+
+.w3-tlabs-assistant-header_right {
+	left: 466px;
+}
+
+.w3-tlabs-assistant-header_active, .w3-tlabs-assistant-header_inactive {
+	background-repeat: repeat-x;
+	width: 223px;
+	height: 42px;
+}
+.w3-tlabs-assistant-header_active {
+	background-image: url("../../image/openw3/default/assistant/wizard_content_active.png");
+}
+.w3-tlabs-assistant-header_inactive {
+	background-image: url("../../image/openw3/default/assistant/wizard_content_inactive.png");
+}
+
+.w3-tlabs-assistant-header_subpart
+{	
+	position:absolute;
+	top:0px;
+	width: 223px;
+	height: 42px;
+}
+
+.w3-tlabs-assistant-header_subpart1, .w3-tlabs-assistant-header_subpart2, .w3-tlabs-assistant-header_subpart3 {
+	background-repeat: none;
+	width: 12px;
+	height: 42px;
+	position:absolute;
+	top:0px;
+}
+.w3-tlabs-assistant-header_subpart1
+{	
+	right:36px;
+}
+.w3-tlabs-assistant-header_subpart2
+{	
+	right:24px;
+}
+.w3-tlabs-assistant-header_subpart3
+{	
+	right:12px;
+}
+.w3-tlabs-assistant-header_subpart_active {
+	background-image: url("../../image/openw3/default/assistant/wizard_dot_active.png");
+}
+.w3-tlabs-assistant-header_subpart_inactive {
+	background-image: url("../../image/openw3/default/assistant/wizard_dot_inactive.png");
+}
