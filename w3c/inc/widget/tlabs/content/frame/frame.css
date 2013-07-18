@@ -22,17 +22,17 @@
 /* ARROW UP */
 .w3-tlabs-content-frame_up 
 {
-	background-image 	: url('../../icon/openw3/default/up.gif');
+	background-image 	: url('../../icon/openw3/default/expand_13.png');
 	background-repeat 	: no-repeat;
-	background-position : 7px 6px;
+	background-position : 3px -23px;
 }
 
 /* ARROW DOWN */
 .w3-tlabs-content-frame_down 
 {
-	background-image 	: url('../../icon/openw3/default/down.gif');
+	background-image 	: url('../../icon/openw3/default/expand_13.png');
 	background-repeat 	: no-repeat;
-	background-position : 7px 6px;
+	background-position : 3px 3px;
 }
 
 /* HIDDEN BLOCK : HIDE */

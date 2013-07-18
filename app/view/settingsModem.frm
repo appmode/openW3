@@ -15,20 +15,20 @@
 		"ttlModem":
 		{
 			"type"  : "tlabs/content/title",
-			"i18n"  : "conf_externalModem_caption"
+			"i18n"  : "title_settings_externalModem"
 		},
 		"chkModem":
 		{
 			"type"  : "tlabs/content/checkbox",
-			"i18n"  : "conf_externalModem_content",
+			"i18n"  : "content_settings_externalModem",
 			"dataSource" : "modem",
 			"dataField"  : "enable"
 		},
 		"hlpModem":
 		{
 			"type"      : "tlabs/content/help",
-			"i18nTitle"	: "helpmeWhatDoesThatMean",
-			"i18n"      : "helpme_externalModem_content"
+			"i18nTitle"	: "helpTitle_settings_externalModem",
+			"i18n"      : "helpContent_settings_externalModem"
 		}
 	}
 }

@@ -13,7 +13,7 @@
 		"ttlPwd":
 		{
 			"type"  : "tlabs/content/title",
-			"i18n"  : "config_pwd_caption"
+			"i18n"  : "title_settings_pwd"
 		},
 		"hlpPwd":
 		{

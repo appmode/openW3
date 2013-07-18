@@ -38,8 +38,8 @@
 					"dataField" : "up",
 					"options"	:
 					[
-						{"i18n" : "overview_internet_subitem_1_opt0"},
-						{"i18n" : "overview_internet_subitem_1_opt3"}
+						{"i18n" : "content_wan_notConfigured"},
+						{"i18n" : "content_wan_active"}
 					]
 				},
 				"actActive":
@@ -49,11 +49,11 @@
 					"options"	:
 					[
 						{
-							"i18n" : "overview_internet_subitem_1_opt4_content",
+							"i18n" : "button_connect",
 							"rpc"  : "set_wan"
 						},
 						{
-							"i18n" : "overview_internet_subitem_1_opt3_content",
+							"i18n" : "button_disconnect",
 							"rpc"  : "disconnect_wan"
 						}
 					]
@@ -61,20 +61,20 @@
 				"lblOnline":
 				{
 					"type"       : "tlabs/overview/label",
-					"i18n"       : "overview_internet_subitem_2"
+					"i18n"       : "label_uptime"
 				},
 				"lblOnlineTime":
 				{
 					"type"       : "tlabs/overview/label",
-					"i18n"       : "overview_internet_subitem_2_content",
+					"i18n"       : "label_uptimeDays",
 					"dataSource" : "sysinfo",
 					"dataField"  : "uptime"
 				},
 				"actAssistant":
 				{
 					"type"    : "tlabs/overview/action",
-					"i18n"    : "overview_linkToAssistant_internet",
-					"target"  : ["assistant", "assistWan"],
+					"i18n"    : "action_wan_configure",
+					"target"  : ["wan", "wan"],
 					"style"   :
 					{
 						"position" : "absolute",

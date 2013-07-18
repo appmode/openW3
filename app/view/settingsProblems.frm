@@ -15,28 +15,28 @@
 		"ttlProblem":
 		{
 			"type"  : "tlabs/content/title",
-			"i18n"  : "config_problemHandling_caption"
+			"i18n"  : "title_settings_problems"
 		},
 		"fraRestart":
 		{
 			"type"      : "tlabs/content/frame",
-			"i18n"      : "key_startNew",
+			"i18n"      : "subtitle_settings_restart",
 			"open"      : true,
 			"Children"  :
 			{
 				"txtRestart":
 				{
 					"type"      : "tlabs/content/text",
-					"i18n"      : "config_problemHandling_save_content_1"
+					"i18n"      : "content_settings_restart"
 				},
 				"txtLastRestart":
 				{
 					"type"       : "tlabs/content/text",
 					"i18n"       : 
 					[
-						"config_problemHandling_save_content_2_1",
+						"content_settings_restart_date",
 						null,
-						"config_problemHandling_save_content_2_2",
+						"content_settings_restart_time",
 						null
 					],
 					"dataSource"     : "sysinfo",
@@ -47,7 +47,7 @@
 				"btnRestart":
 				{
 					"type"  : "tlabs/content/button",
-					"i18n"  : "key_startNew",
+					"i18n"  : "button_restart",
 					"rpc"   : "reboot"
 				}
 			}

@@ -66,12 +66,17 @@ this.confirmAction = function($strAction)
 	}
 }
 
+this.getStatus = function()
+{
+	return this._strStatus;
+}
+
 this.setStatus = function($strStatus, $intTimeout)
 {
 	// remove current status class
-	if (this._strStatus)
+	if (this._strClass)
 	{
-		this.removeClass('w3_status_' + this._strStatus);
+		this.removeClass('w3_status_' + this._strClass);
 	}
 	// clear timeout
 	if (this._refStatusTimer)
@@ -83,17 +88,19 @@ this.setStatus = function($strStatus, $intTimeout)
 	// get status object
 	var $objStatus = this.property('status')[$strStatus];
 	var $strI18n;
+	var $strClass = $strStatus;
 	if ($objStatus)
 	{
-		$strStatus = $objStatus['status'] || $strStatus;
+		$strClass = $objStatus['status'] || $strStatus;
 		$strI18n   = $objStatus['i18n'];
 	}
 	
 	// cache new status
 	this._strStatus = $strStatus;
+	this._strClass  = $strClass;
 	
 	// set new status class
-	this.addClass('w3_status_' + $strStatus);
+	this.addClass('w3_status_' + $strClass);
 	
 	// set status text
 	var $elmStatus = this.getElement('status');

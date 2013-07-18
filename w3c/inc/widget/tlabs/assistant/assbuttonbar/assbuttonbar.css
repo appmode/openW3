@@ -82,7 +82,7 @@
 	margin-top				: -5px;
 	height					: 11px;
 	width					: 16px;
-	background-image		: URL(../../image/tlabs/loader/bars_16x11.gif);
+	background-image		: URL(../../image/openw3/default/loader/bars_16x11.gif);
 }
 
 .w3-tlabs-assistant-assbuttonbar.w3_status_wait .w3-tlabs-assistant-assbuttonbar_loader
@@ -100,7 +100,7 @@
 	margin-top				: -10px;
 	height					: 20px;
 	line-height				: 20px;
-	background-image		: URL(../../icon/tlabs/or/status_20x20.png);
+	background-image		: URL(../../icon/openw3/default/status_20x20.png);
 	background-repeat		: no-repeat;
 	background-position		: 0px 0px;
 	padding-left			: 23px;

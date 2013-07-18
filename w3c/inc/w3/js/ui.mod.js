@@ -563,7 +563,7 @@ alert('bad widget type: ' + $strType);
 window[W3_NAMESPACE].registerModule(new W3_ui_module());
 
 // Remove Class Definition
-delete(W3_widget_module);
+delete(W3_ui_module);
 
 // add a global ui object to hold all forms (shortcut to w3.parentView.parentViews)
 window[window[W3_NAMESPACE].UI_NAMESPACE] = window[W3_NAMESPACE].ui.views;

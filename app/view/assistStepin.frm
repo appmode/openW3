@@ -24,7 +24,7 @@
 		"headerWan": {
 			"type": "tlabs/overview/header",
 			"i18n": "category_internet",
-			"iconSprite": "icon/tlabs/or/72x72.png",
+			"iconSprite": "icon/openw3/default/72x72.png",
 			"iconFrame": 2,
 			"style": {
 				"float": "left",
@@ -35,7 +35,7 @@
 		"headerVoip": {
 			"type": "tlabs/overview/header",
 			"i18n": "category_phone",
-			"iconSprite": "icon/tlabs/or/72x72.png",
+			"iconSprite": "icon/openw3/default/72x72.png",
 			"iconFrame": 3,
 			"style": {
 				"float": "left",
@@ -45,7 +45,7 @@
 		"headerHomenetwork": {
 			"type": "tlabs/overview/header",
 			"i18n": "category_lan",
-			"iconSprite": "icon/tlabs/or/72x72.png",
+			"iconSprite": "icon/openw3/default/72x72.png",
 			"iconFrame": 4,
 			"style": {
 				"float": "left",

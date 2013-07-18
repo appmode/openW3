@@ -19,6 +19,10 @@ handlers:
 - url: /app/css/
   static_dir: app/css
 
+# i18n
+- url: /app/js/i18n/.*
+  script: w3c/handler/i18n.py
+  
 # JS
 - url: /app/js/
   static_dir: app/js

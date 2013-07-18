@@ -16,19 +16,19 @@
 		"ttlInfo":
 		{
 			"type"  : "tlabs/content/title",
-			"i18n"  : "conf_sysinfo_caption"
+			"i18n"  : "title_settings_info"
 		},
 		"fraInfo":
 		{
 			"type"      : "tlabs/content/frame",
-			"i18n"      : "conf_sysinfo_caption1",
+			"i18n"      : "subtitle_settings_info",
 			"open"      : true,
 			"Children"  :
 			{
 				"lblDate":
 				{
 					"type"       : "tlabs/content/labelinput",
-					"i18n"	     : "conf_sysinfo_content_6",
+					"i18n"	     : "label_dateTime",
 					"dataSource" : "sysinfo",
 					"dataField"  : "router_date",
 					"style"	:
@@ -39,7 +39,7 @@
 				"lblDown":
 				{
 					"type"       : "tlabs/content/labelinput",
-					"i18n"	     : "conf_sysinfo_content_8",
+					"i18n"	     : "label_dslDownstream",
 					"dataSource" : "dsl",
 					"dataField"  : "data_rate_down_s",
 					"style"	:
@@ -50,7 +50,7 @@
 				"lblUp":
 				{
 					"type"       : "tlabs/content/labelinput",
-					"i18n"	     : "conf_sysinfo_content_9",
+					"i18n"	     : "label_dslUpstream",
 					"dataSource" : "dsl",
 					"dataField"  : "data_rate_up_s",
 					"style"	:
@@ -61,7 +61,7 @@
 				"lblFirmware":
 				{
 					"type"       : "tlabs/content/labelinput",
-					"i18n"	     : "conf_sysinfo_content_1",
+					"i18n"	     : "label_firmwareVersion",
 					"dataSource" : "sysinfo",
 					"dataField"  : "firmware_version",
 					"style"	:
@@ -72,7 +72,7 @@
 				"lblPackages":
 				{
 					"type"       : "tlabs/content/labelinput",
-					"i18n"	     : "conf_sysinfo_modifpack",
+					"i18n"	     : "label_modifiedPackages",
 					"dataSource" : "packages",
 					"dataField"  : "*",
 					"style"	:
@@ -85,7 +85,7 @@
 		"fraMessage":
 		{
 			"type"      : "tlabs/content/frame",
-			"i18n"      : "conf_sysinfo_caption2",
+			"i18n"      : "subtitle_settings_messages",
 			"Children"  :
 			{
 				"msgMessages":

@@ -64,7 +64,7 @@
 			"i18n": "category_internet",
 			"dataSource": "wan",
 			"dataField": "up",
-			"iconSprite": "icon/tlabs/or/72x72.png",
+			"iconSprite": "icon/openw3/default/72x72.png",
 			"iconFrame": 2,
 			"style": {
 				"float" : "left", "width" : "120", "margin-left" : "20px"
@@ -75,7 +75,7 @@
 			"i18n": "category_phone",
 			"dataSource": "voip",
 			"dataField": "up",
-			"iconSprite": "icon/tlabs/or/72x72.png",
+			"iconSprite": "icon/openw3/default/72x72.png",
 			"iconFrame": 3,
 			"style": {
 				"float" : "left", "width" : "120"
@@ -86,7 +86,7 @@
 			"i18n": "category_lan",
 			"dataSource": "wireless",
 			"dataField": "radio0.up",
-			"iconSprite": "icon/tlabs/or/72x72.png",
+			"iconSprite": "icon/openw3/default/72x72.png",
 			"iconFrame": 4,
 			"style": {
 				"float" : "left", "width" : "120"

@@ -83,6 +83,12 @@
 							"i18n"        : "menu_wan",
 							"i18nTooltip" : "menu_wan_tooltip",
 							"view"        : "wan"
+						},
+						{
+							"name"        : "vpn",
+							"i18n"        : "menu_vpn",
+							"i18nTooltip" : "menu_vpn_tooltip",
+							"view"        : "vpn"
 						}
 					]
 				},
