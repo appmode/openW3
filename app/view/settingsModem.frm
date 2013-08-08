@@ -27,8 +27,8 @@
 		"hlpModem":
 		{
 			"type"      : "tlabs/content/help",
-			"i18nTitle"	: "helpTitle_settings_externalModem",
-			"i18n"      : "helpContent_settings_externalModem"
+			"i18nTitle"	: "helpTtl_settings_externalModem",
+			"i18n"      : "helpCnt_settings_externalModem"
 		}
 	}
 }

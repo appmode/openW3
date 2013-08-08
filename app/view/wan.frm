@@ -16,7 +16,7 @@
 		"ttlWan":
 		{
 			"type"  : "tlabs/content/title",
-			"i18n"  : "internet_settings_caption"
+			"i18n"  : "title_wan"
 		},
 		"txtWan":
 		{
@@ -24,8 +24,8 @@
 			"dataField" : "up",
 			"options"	:
 			[
-				{"i18n" : "internet_settings_disconnected"},
-				{"i18n" : "internet_settings_connected"}
+				{"i18n" : "content_wan_disconnected"},
+				{"i18n" : "content_wan_connected"}
 			]
 		},
 		"btnDisconnect":
@@ -35,10 +35,10 @@
 			"options"	:
 			[
 				{
-					"i18n" : "btn_internet_reconnect"
+					"i18n" : "button_connect"
 				},
 				{
-					"i18n" : "btn_internet_disconnect",
+					"i18n" : "button_disconnect",
 					"rpc"  : "disconnect_wan"
 				}
 			]
@@ -57,7 +57,7 @@
 				"selProvider":
 				{
 					"type"  : "tlabs/content/selectinput",
-					"i18n"	: "key_provider",
+					"i18n"	: "label_provider",
 					"options":
 					[
 						{
@@ -74,8 +74,8 @@
 				"inpConnectionId":
 				{
 					"type"       : "tlabs/content/textinput",
-					"i18n"	     : "callingLineID_label",
-					"i18nError"  : "error_message_callIdent",
+					"i18n"	     : "label_connectionId",
+					"i18nError"  : "error_connectionId_invalid",
 					"dataField"  : "t_callident",
 					"style"	:
 					{
@@ -85,8 +85,8 @@
 				"inpAccessNo":
 				{
 					"type"       : "tlabs/content/textinput",
-					"i18n"	     : "tonline_number_label",
-					"i18nError"  : "error_message_tOnlineNumber",
+					"i18n"	     : "label_accessNo",
+					"i18nError"  : "error_accessNo_invalid",
 					"dataField"  : "t_number",
 					"style"	:
 					{
@@ -95,9 +95,9 @@
 				},
 				"inpPassword":
 				{
-					"type"  : "tlabs/content/passwordinput",
-					"i18n"	: "internet_password_label",
-					"i18nError"  : "error_message_privateCode",
+					"type"       : "tlabs/content/passwordinput",
+					"i18n"	     : "label_pwd",
+					"i18nError"  : "error_pwd_invalid",
 					"dataField"  : "password",
 					"style"	:
 					{
@@ -131,18 +131,18 @@
 		"fraIp":
 		{
 			"type"  : "tlabs/content/frame",
-			"i18n"	: "connection_ip_addressinfo",
+			"i18n"	: "subtitle_wan_ipInfo",
 			"Children"	:
 			{
 				"ttlIpV4":
 				{
 					"type"  : "tlabs/content/title",
-					"i18n"  : "connection_ip_info_v4"
+					"i18n"  : "title_wan_ipV4Info"
 				},
 				"lblIp":
 				{
 					"type"       : "tlabs/content/labelinput",
-					"i18n"	     : "connection_public_ip_v4",
+					"i18n"	     : "label_wanIp",
 					"dataField"  : "ipaddr",
 					"style"	:
 					{
@@ -152,7 +152,7 @@
 				"lblGateway":
 				{
 					"type"       : "tlabs/content/labelinput",
-					"i18n"	     : "connection_gateway_ip_v4",
+					"i18n"	     : "label_gateway",
 					"dataField"  : "route",
 					"style"	:
 					{
@@ -162,7 +162,7 @@
 				"lblPrimaryDns":
 				{
 					"type"       : "tlabs/content/labelinput",
-					"i18n"	     : "connection_dns_ip_v4",
+					"i18n"	     : "label_dns1",
 					"dataField"  : "dns",
 					"style"	:
 					{
@@ -172,7 +172,7 @@
 				"lblSecondaryDns":
 				{
 					"type"       : "tlabs/content/labelinput",
-					"i18n"	     : "connection_sec_dns_ip_v4",
+					"i18n"	     : "label_dns2",
 					"dataField"  : "dns2",
 					"style"	:
 					{

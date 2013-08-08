@@ -16,7 +16,7 @@
 		"ttlVpn":
 		{
 			"type"  : "tlabs/content/title",
-			"i18n"  : "vpn_settings_caption"
+			"i18n"  : "title_vpn"
 		},
 		"txtVpn":
 		{
@@ -24,8 +24,8 @@
 			"dataField" : "up",
 			"options"	:
 			[
-				{"i18n" : "vpn_settings_disconnected"},
-				{"i18n" : "vpn_settings_connected"}
+				{"i18n" : "content_vpn_disconnected"},
+				{"i18n" : "content_vpn_connected"}
 			]
 		},
 		"btnDisconnect":
@@ -35,11 +35,11 @@
 			"options"	:
 			[
 				{
-					"i18n" : "btn_vpn_reconnect",
+					"i18n" : "button_connect",
 					"rpc"  : "start_vpn"
 				},
 				{
-					"i18n" : "btn_vpn_disconnect",
+					"i18n" : "button_disconnect",
 					"rpc"  : "stop_vpn"
 				}
 			]
@@ -52,20 +52,20 @@
 		"radVpnMode":
 		{
 			"type"       : "tlabs/content/radioinput",
-			"i18n"	     : "vpn_label_mode",
+			"i18n"	     : "label_vpnMode",
 			"dataField"  : "vpnmode",
 			"buttons":
 			[
 				{
-					"i18n"  : "vpn_label_mode_none",
+					"i18n"  : "info_vpnMode_none",
 					"value" : 0
 				},
 				{
-					"i18n" : "vpn_label_mode_server",
+					"i18n" : "info_vpnMode_server",
 					"value" : 1
 				},
 				{
-					"i18n" : "vpn_label_mode_client",
+					"i18n" : "info_vpnMode_client",
 					"value" : 2
 				}
 			],
@@ -77,7 +77,7 @@
 		"fraServerData":
 		{
 			"type"  : "tlabs/content/frame",
-			"i18n"	: "key_vpn_server_conf",
+			"i18n"	: "subtitle_vpn_serverConfig",
 			"style" :
 			{
 				"display" : "none"
@@ -87,8 +87,8 @@
                 "inpVpn_ca":
                 {
                     "type"       : "tlabs/content/textinput",
-                    "i18n"       : "vpn_label_ca",
-                    "i18nError"  : "vpn_error_message_ca",
+                    "i18n"       : "label_sslCaCert",
+                    "i18nError"  : "error_sslCaCert_invalid",
                     "dataField"  : "openrouterserver.ca",
                     "style" :
                     {
@@ -98,8 +98,8 @@
                 "inpVpn_cert":
                 {
                     "type"       : "tlabs/content/textinput",
-                    "i18n"       : "vpn_label_cert",
-                    "i18nError"  : "vpn_error_message_cert",
+                    "i18n"       : "label_sslCert",
+                    "i18nError"  : "error_sslCert_invalid",
                     "dataField"  : "openrouterserver.cert",
                     "style" :
                     {
@@ -109,8 +109,8 @@
                 "inpVpn_key":
                 {
                     "type"       : "tlabs/content/textinput",
-                    "i18n"       : "vpn_label_key",
-                    "i18nError"  : "vpn_error_message_key",
+                    "i18n"       : "label_keyFile",
+                    "i18nError"  : "error_keyFile_invalid",
                     "dataField"  : "openrouterserver.key",
                     "style" :
                     {
@@ -120,8 +120,8 @@
                 "inpVpn_dh":
                 {
                     "type"       : "tlabs/content/textinput",
-                    "i18n"       : "vpn_label_dh",
-                    "i18nError"  : "vpn_error_message_dh",
+                    "i18n"       : "label_dhFile",
+                    "i18nError"  : "error_dhFile_invalid",
                     "dataField"  : "openrouterserver.dh",
                     "style" :
                     {
@@ -131,8 +131,8 @@
                 "inpVpn_clientnet":
                 {
                     "type"       : "tlabs/content/textinput",
-                    "i18n"       : "vpn_label_clientnet",
-                    "i18nError"  : "vpn_error_message_clientnet",
+                    "i18n"       : "label_clientNetwork",
+                    "i18nError"  : "error_clientNetwork_invalid",
                     "dataField"  : "openrouterserver.route",
                     "style" :
                     {
@@ -165,7 +165,7 @@
 		"fraClientData":
 		{
 			"type"  : "tlabs/content/frame",
-			"i18n"	: "key_vpn_client_conf",
+			"i18n"	: "subtitle_vpn_clientConfig",
 			"style" :
 			{
 				"display" : "none"
@@ -175,8 +175,8 @@
                 "inpVpn_ca":
                 {
                     "type"       : "tlabs/content/textinput",
-                    "i18n"       : "vpn_label_ca",
-                    "i18nError"  : "vpn_error_message_ca",
+                    "i18n"       : "label_sslCaCert",
+                    "i18nError"  : "error_sslCaCert_invalid",
                     "dataField"  : "openrouterclient.ca",
                     "style" :
                     {
@@ -186,8 +186,8 @@
                 "inpVpn_cert":
                 {
                     "type"       : "tlabs/content/textinput",
-                    "i18n"       : "vpn_label_cert",
-                    "i18nError"  : "vpn_error_message_cert",
+                    "i18n"       : "label_sslCert",
+                    "i18nError"  : "error_sslCert_invalid",
                     "dataField"  : "openrouterclient.cert",
                     "style" :
                     {
@@ -197,8 +197,8 @@
                 "inpVpn_key":
                 {
                     "type"       : "tlabs/content/textinput",
-                    "i18n"       : "vpn_label_key",
-                    "i18nError"  : "vpn_error_message_key",
+                    "i18n"       : "label_keyFile",
+                    "i18nError"  : "error_keyFile_invalid",
                     "dataField"  : "openrouterclient.key",
                     "style" :
                     {
@@ -208,8 +208,8 @@
                 "inpVpn_dh":
                 {
                     "type"       : "tlabs/content/textinput",
-                    "i18n"       : "vpn_label_dh",
-                    "i18nError"  : "vpn_error_message_dh",
+                    "i18n"       : "label_dhFile",
+                    "i18nError"  : "error_dhFile_invalid",
                     "dataField"  : "openrouterclient.dh",
                     "style" :
                     {
@@ -219,8 +219,8 @@
                 "inpVpn_clientnet":
                 {
                     "type"       : "tlabs/content/textinput",
-                    "i18n"       : "vpn_label_server_wan_ip",
-                    "i18nError"  : "vpn_error_message_server_wan_ip",
+                    "i18n"       : "label_remoteIp",
+                    "i18nError"  : "error_remoteIp_invalid",
                     "dataField"  : "openrouterclient.remote",
                     "style" :
                     {
@@ -253,7 +253,7 @@
 		"fraServerClientInfo":
 		{
 			"type"  : "tlabs/content/frame",
-			"i18n"	: "vpn_connection_info",
+			"i18n"	: "subtitle_vpn_info",
 			"style" :
 			{
 				"display" : "none"
@@ -263,12 +263,12 @@
 				"ttlIpV4":
 				{
 					"type"  : "tlabs/content/title",
-					"i18n"  : "vpn_connection_clientinfo"
+					"i18n"  : "title_vpn_clientInfo"
 				},
                 "lblVpnClientCN":
                 {
                     "type"       : "tlabs/content/labelinput",
-                    "i18n"       : "vpn_label_clientcn",
+                    "i18n"       : "label_clientCn",
                     "dataField"  : "openrouterserver.clientcn",
                     "style" :
                     {
@@ -278,7 +278,7 @@
                 "lblVpnClientIP":
                 {
                     "type"       : "tlabs/content/labelinput",
-                    "i18n"       : "vpn_label_clientip",
+                    "i18n"       : "label_clientIp",
                     "dataField"  : "openrouterserver.clientip",
                     "style" :
                     {
@@ -288,7 +288,7 @@
                 "lblVpnClientRX":
                 {
                     "type"       : "tlabs/content/labelinput",
-                    "i18n"       : "vpn_label_clientrx",
+                    "i18n"       : "label_bytesRx",
                     "dataField"  : "openrouterserver.clientrx",
                     "style" :
                     {
@@ -298,7 +298,7 @@
                 "lblVpnClientTX":
                 {
                     "type"       : "tlabs/content/labelinput",
-                    "i18n"       : "vpn_label_clienttx",
+                    "i18n"       : "label_bytesTx",
                     "dataField"  : "openrouterserver.clienttx",
                     "style" :
                     {

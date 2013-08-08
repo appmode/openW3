@@ -136,18 +136,6 @@
 					"i18n"      : "change",
 					"target"    : ["voip", "voip"]
 				},
-				"actAssistant":
-				{
-					"type"    : "tlabs/overview/action",
-					"i18n"    : "overview_linkToAssistant_phone",
-					"target"  : ["assistant", "assistVoip"],
-					"style"   :
-					{
-						"position" : "absolute",
-						"left"     : "0px",
-						"bottom"   : "30px"
-					}
-				},
 				"help":
 				{
 					"type"    : "tlabs/overview/help",
@@ -260,18 +248,6 @@
 					"type"    : "tlabs/overview/action",
 					"i18n"    : "change",
 					"target"  : ["network", "wireless"]
-				},
-				"actAssistant":
-				{
-					"type"    : "tlabs/overview/action",
-					"i18n"    : "overview_linkToAssistant_network_wlan",
-					"target"  : ["assistant", "assistWireless"],
-					"style"   :
-					{
-						"position" : "absolute",
-						"left"     : "0px",
-						"bottom"   : "30px"
-					}
 				},
 				"help":
 				{

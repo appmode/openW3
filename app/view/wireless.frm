@@ -16,33 +16,33 @@
 		"ttlBasicSettings":
 		{
 			"type"  : "tlabs/content/title",
-			"i18n"  : "network_wlan_basics_caption"
+			"i18n"  : "title_wireless"
 		},
 		"hlpWireless":
 		{
 			"type"      : "tlabs/content/help",
-			"i18nTitle"	: "helpme_whatIsWLAN",
-			"i18n"      : "helpme_whatIsWLAN_content"
+			"i18nTitle"	: "helpTtl_aboutWireless",
+			"i18n"      : "helpCnt_aboutWireless"
 		},
 		"chkWireless24":
 		{
 			"type"         : "tlabs/content/checkbox",
-			"i18n"         : "network_wlan_basics_checkbox_wlan_on_label",
+			"i18n"         : "checkbox_wireless_2gEnable",
 			"dataField"    : "radio0.disabled",
 			"reverseValue" : true
 		},
 		"chkWireless50":
 		{
 			"type"         : "tlabs/content/checkbox",
-			"i18n"         : "network_wlan_basics_checkbox_wlan_5ghz_on_label",
+			"i18n"         : "checkbox_wireless_5gEnable",
 			"dataField"    : "radio1.disabled",
 			"reverseValue" : true
 		},
 		"inpWireless24Ssid":
 		{
 			"type"       : "tlabs/content/textinput",
-			"i18n"	     : "network_wlan_basics_ssid_label",
-			"i18nError"  : "network_wlan_basics_ssid_validation_error",
+			"i18n"	     : "label_ssid",
+			"i18nError"  : "error_ssid_invalid",
 			"dataField"  : "radio0.ssid",
 			"style"	:
 			{
@@ -63,22 +63,22 @@
 		"hlpWireless24Ssid":
 		{
 			"type"      : "tlabs/content/help",
-			"i18n"      : "helpme_wlan_ssid_content",
+			"i18n"      : "helpCnt_aboutSsid",
 			"i18nTitle"	: ""
 		},
 		"radWireless24Visible":
 		{
 			"type"       : "tlabs/content/radioinput",
-			"i18n"	     : "network_wlan_basics_visibility_label",
+			"i18n"	     : "label_ssidVisibility",
 			"dataField"  : "radio0.hidden",
 			"buttons":
 			[
 				{
-					"i18n"  : "opt_visibility_visible",
+					"i18n"  : "option_visible",
 					"value" : 0
 				},
 				{
-					"i18n" : "opt_visibility_invisible",
+					"i18n" : "option_hidden",
 					"value" : 1
 				}
 			],
@@ -90,34 +90,34 @@
 		"hlpVisible":
 		{
 			"type"      : "tlabs/content/help",
-			"i18nTitle"	: "helpme_wlan_visibility",
-			"i18n"	    : "helpme_wlan_visibility_content"
+			"i18nTitle"	: "helpTtl_ssidVisibility",
+			"i18n"	    : "helpCnt_ssidVisibility"
 		},
 		"selEncryptionType":
 		{
 			"type"       : "tlabs/content/selectinput",
-			"i18n"	     : "wlan_encryptionType_label",
+			"i18n"	     : "label_encryptionType",
 			"dataField"  : "radio0.encryption",
 			"options" :
 			[
 				{
-					"i18n"  : "opt_encryptionType_wpa2",
+					"i18n"  : "option_wpa2",
 					"value"	: "psk2"
 				},
 				{
-					"i18n"  : "opt_encryptionType_wpa",
+					"i18n"  : "option_wpa",
 					"value"	: "mixed-psk"
 				},
 				{
-					"i18n"  : "opt_encryptionType_wpa1",
+					"i18n"  : "option_wpa1",
 					"value"	: "psk"
 				},
 				{
-					"i18n"  : "opt_encryptionType_wep",
+					"i18n"  : "option_wep",
 					"value"	: "wep"
 				},
 				{
-					"i18n"  : "opt_encryptionType_none",
+					"i18n"  : "option_unenencrypted",
 					"value"	: "none"
 				}
 			],
@@ -129,14 +129,14 @@
 		"hlpEncryptionType":
 		{
 			"type"      : "tlabs/content/help",
-			"i18nTitle"	: "helpme_encryptionType",
-			"i18n"	    : "helpme_encryptionType_content"
+			"i18nTitle"	: "helpTtl_encryptionType",
+			"i18n"	    : "helpCnt_encryptionType"
 		},
 		"inpWirelessKey":
 		{
 			"type"       : "tlabs/content/textinput",
-			"i18n"	     : "wlan_key_label",
-			"i18nError"  : "wpakey_validation_error",
+			"i18n"	     : "label_wifiKey",
+			"i18nError"  : "error_wifiKey_invalid",
 			"dataField"  : "radio0.key",
 			"style"	:
 			{
@@ -146,8 +146,8 @@
 		"hlpWirelessKey":
 		{
 			"type"      : "tlabs/content/help",
-			"i18nTitle"	: "helpme_whereToUseWLANKey",
-			"i18n"	    : "helpme_whereToUseWLANKey_content_1"
+			"i18nTitle"	: "helpTtl_aboutWifiKey",
+			"i18n"	    : "helpCnt_aboutWifiKey"
 		},
 		"btnSave":
 		{

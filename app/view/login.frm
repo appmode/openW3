@@ -27,15 +27,15 @@
 		"hlpFindPwd":
 		{
 			"type"      : "tlabs/content/help",
-			"i18nTitle"	: "helpme_find_pwd",
-			"i18n"	    : "helpme_find_pwd_content",
+			"i18nTitle"	: "helpTtl_findPwd",
+			"i18n"	    : "helpCnt_findPwd",
 			"alt"		: "Speedport back"
 		},
 		"hlpLostPwd":
 		{
 			"type"      : "tlabs/content/help",
-			"i18nTitle"	: "helpme_lost_pwd",
-			"i18n"	    : "helpme_lost_pwd_content"
+			"i18nTitle"	: "helpTtl_lostPwd",
+			"i18n"	    : "helpCnt_lostPwd"
 		},
 		"inpPwd":
 		{

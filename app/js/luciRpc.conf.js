@@ -21,15 +21,15 @@
 
 // wireless
 w3.luciRpc.registerDataSource('wireless',           'wireless',   'set_wireless');
-w3.luciRpc.registerDataSource('wireless_assistant', 'wireless');
+//w3.luciRpc.registerDataSource('wireless_assistant', 'wireless');
 
 // lan
 w3.luciRpc.registerDataSource('lan',                'lan',        'set_lan');
-w3.luciRpc.registerDataSource('lan_assistant',      'lan');
+//w3.luciRpc.registerDataSource('lan_assistant',      'lan');
 
 // wan
 w3.luciRpc.registerDataSource('wan',                'wan',        'set_wan');
-w3.luciRpc.registerDataSource('wan_assistant',      'wan');
+//w3.luciRpc.registerDataSource('wan_assistant',      'wan');
 
 // voip
 w3.luciRpc.registerDataSource('voip',               'voip',       'set_voip_all');

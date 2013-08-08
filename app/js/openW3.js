@@ -228,14 +228,18 @@ W3_app_module = function()
     {
 		if (this._bolAuth == true)
 		{
-            //ui.header.nav.navigateTo($strSection);
-            //ui.menu.menu.navigateTo($strPage);
+            ui.header.nav.navigateTo($strSection);
+            ui.menu.menu.navigateTo($strPage);
+//TODO!!!! : check for a newer version of this file, 
+//           because I thought I already fixed this!
+/*
 		    if ($strSection !== "assistant") {
 			    ui.header.nav.navigateTo($strSection);
 			    ui.menu.menu.navigateTo($strPage);
 			} else {
 			    this.showContent($strPage);
 			}
+*/
 		}
 	}
 	

@@ -71,13 +71,13 @@
 "lan.frm" : "*********************************************************",
 "title_lan" :
 		"LAN settings",
-"helpTitle_lan" :
+"helpTtl_lan" :
 		"",
-"helpContent_lan" :
+"helpCnt_lan" :
 		"",
-"helpTitle_RouterName" :
+"helpTtl_RouterName" :
 		"",
-"helpContent_RouterName" :
+"helpCnt_RouterName" :
 		"",
 "label_hostName" :
 		"Host Name",
@@ -99,14 +99,14 @@
 		"",
 "content_login_????" :
 		"",
-"helpTitle_findPassword" :
-		"",
-"helpContent_findPassword" :
-		"",
-"helpTitle_lostPassword" :
-		"",
-"helpContent_lostPassword" :
-		"",
+"helpTtl_findPwd" :
+		"Where do I find the device password?",
+"helpCnt_findPwd" :
+		"You can find the device password on the label on the rear of your Speedport, if you have not already changed it yourself.",
+"helpTtl_lostPwd" :
+		"Forget your device password?",
+"helpCnt_lostPwd" :
+		"If you have forgotten a changed device password, you can reset the Speedport to the factory settings. All previous settings are lost in the process! To do this, using a thin object and press the small opening marked Reset on the rear of the Speedport for approx. 5 seconds. <br>Then use the preset device password that is printed on the label on the rear of the Speedport. <br>You can find more information in the operating instructions of your Speedport.",
 "label_password" :
 		"",
 "button_login" :
@@ -135,14 +135,6 @@
 		"",
 "" :
 		"",
-"" :
-		"",
-"" :
-		"",
-"" :
-		"",
-"" :
-		"",
 
 "settingsInfo.frm" : "[x]*******************************************************",
 "title_settings_info" :
@@ -162,15 +154,14 @@
 "label_modifiedPackages" :
 		"Modified packages",
 
-
 "settingsModem.frm" : "[x]*******************************************************",
 "title_settings_externalModem" :
 		"External modem",
 "content_settings_externalModem" :
 		"Allow an Internet connection on socket LAN1/link via external modem.",
-"helpTitle_settings_externalModem" :
+"helpTtl_settings_externalModem" :
 		"What does that mean?",
-"helpContent_settings_externalModem" :
+"helpCnt_settings_externalModem" :
 		"The <label class='external_modem_name'>LAN1/Link</label> socket offers two options for connecting devices:<ul><li>Function off: You can connect network-capable devices (e.g., computers) with a network cable (factory setting).</li><li>Function on: you can connect an external modem, e.g., an optical fiber modem (ONT). The internal DSL modem is deactivated. An Internet connection is not possible over the DSL socket.</li></ul>",
 
 "settingsProblems.frm" : "[x]*******************************************************",
@@ -187,9 +178,215 @@
 "button_restart" :
 		"Restart",
 		
-"settingsPwd.frm" : "[]*******************************************************",
+"settingsPwd.frm" : "[x]*******************************************************",
 "title_settings_pwd" :
 		"Change device password",
+"helpTtl_aboutPwd" :
+		"What is the device password?",
+"helpCnt_aboutPwd" :
+		"Access to the configuration menu is protected by a device password. You can find the individually assigned device password on the label on the rear of the device.",
+"label_currentPwd" :
+		"Current Password",
+"error_currentPwd_incorrect" :
+		"The previous device password is not correct! Please repeat the entry!",
+"label_newPwd" :
+		"New device password",
+"error_newPwd_invalid" :
+		"Invalid entry! Please assign a password with 4-12 permitted characters (A-Z,a-z,0-9)!",
+"info_passwordChanged" :
+		"The password was changed",
+"info_invalidEntry" :
+		"Invalid entry!",
+		
+"voip.frm" : "[x]*******************************************************",
+"title_voip" :
+		"VOIP settings",
+"content_voip_info" :
+		"You can simultaneously create several Internet telephone numbers with the same access data. If you have Internet telephone numbers from the same provider with different access data or from different providers, you can create additional providers.",
+"label_provider" :
+		"Provider",
+"error_areacode_invalid" :
+		"Area code is missing or incorrect",
+"helpTtl_voipRegistration" :
+		"Registration",
+"helpCnt_voipRegistration" :
+		"The telephone numbers for the Internet telephony are registered with log in data on the telephony server.",
+"helpPre_voipRegistration" :
+		"For the ",
+"helpSuf_voipRegistration" :
+		"of the telephone numbers, the standard settings are used.",
+		
+"voipAssign.frm" : "[x]*******************************************************",
+"title_voip_assign" :
+		"Telephone number assignment settings",
+"content_voip_assign_info" :
+		"You can simultaneously create several Internet telephone numbers with the same access data. If you have Internet telephone numbers from the same provider with different access data or from different providers, you can create additional providers.",
+"subtitle_voip_incoming" :
+		"Incoming calls",
+"subtitle_voip_outgoing" :
+		"Outgoing calls",
+"helpTtl_voipIncoming" :
+		"What does the telephone number assignment mean for incoming calls?",
+"helpCnt_voipIncoming" :
+		"Here, you can define which telephone number is to ring on which telephones (or e.g., fax) for each telephone .<br>Note: This does not include ISDN telephones in which the telephone numbers are defined directly, IP telephones and cordless telephones that are registered on an external connected DECT base station.",
+"helpTtl_voipOutgoing" :
+		"What does the telephone number assignment mean for outgoing calls?",
+"helpCnt_voipOutgoing" :
+		"Here, you can define which telephone number is to be transmitted to your caller for each telephone.<br>Note: This does not include ISDN telephones in which the telephone numbers are defined directly, IP telephones and cordless telephones that are registered on an external connected DECT base station.",
+		
+"voipLine.frm" : "[]*******************************************************",
+"title_voip_line" :
+		"Telephone number settings",
+"content_voip_line_info" :
+		"Here, you can define whether several calls can be held in parallel on a telephone number for all device-independent ISDN and Internet telephone numbers. The telephone numbers can be assigned to the telephone sockets and all registered cordless telephones. These settings are telephone number-specific.",
+"helpTtl_voipLineSettings" :
+		"What do the various settings mean?",
+"helpCnt_voipLineSettings" :
+		"Hide telephone number<br>Define here whether the transmission of the telephone number is to be hidden for outgoing telephone calls.",
+		
+"vpn.frm" : "[]*******************************************************",
+"title_vpn" :
+		"VPN settings",
+"content_vpn_disconnected" :
+		"The VPN connection is currently disconnected. To establish the connection, click Establish connection.",
+"content_vpn_connected" :
+		"The VPN connection is currently established. To disconnect the connection, click Disconnect connection. Your settings and access data are not changed in the process.",
+"label_vpnMode" :
+		"VPN mode",
+"info_vpnMode_none" :
+		"none",
+"info_vpnMode_server" :
+		"server",
+"info_vpnMode_client" :
+		"client",
+"subtitle_vpn_serverConfig" :
+		"VPN server configuration",
+"label_sslCaCert" :
+		"SSL CA certificate",
+"error_sslCaCert_invalid" :
+		"Invalid entry!",
+"label_sslCert" :
+		"SSL certificate",
+"error_sslCert_invalid" :
+		"Invalid entry!",
+"label_keyFile" :
+		"Key file",
+"error_keyFile_invalid" :
+		"Invalid entry!",
+"label_dhFile" :
+		"Diffie-Hellman parameter file",
+"error_dhFile_invalid" :
+		"Invalid entry!",
+"label_clientNetwork" :
+		"Client network",
+"error_clientNetwork_invalid" :
+		"Invalid entry!",
+"subtitle_vpn_clientConfig" :
+		"VPN client configuration",
+"label_remoteIp" :
+		"Remote public WAN-IP",
+"error_remoteIp_invalid" :
+		"Invalid entry!",
+"subtitle_vpn_info" :
+		"VPN connection information",
+"title_vpn_clientInfo" :
+		"Connected client",
+"label_clientCn" :
+		"Client CN",
+"label_clientIp" :
+		"Client IP",
+"label_bytesRx" :
+		"Received bytes",
+"label_bytesTx" :
+		"Sent bytes",
+		
+"wan.frm" : "[x]*******************************************************",
+"title_wan" :
+		"WAN settings",
+"content_wan_disconnected" :
+		"The Internet connection is currently disconnected. To establish the connection, click Establish connection.",
+"content_wan_connected" :
+		"The Internet connection is currently established. To disconnect the connection, click Disconnect connection. Your settings and access data are not changed in the process.",
+"label_connectionId" :
+		"Connection ID",
+"error_connectionId_invalid" :
+		"Invalid entry! Please enter the connection ID!",
+"label_accessNo" :
+		"Access Number",
+"error_accessNo_invalid" :
+		"Invalid entry!",
+"label_pwd" :
+		"Password",
+"error_pwd_invalid" :
+		"Invalid entry!",
+"subtitle_wan_ipInfo" :
+		"IP address information",
+"title_wan_ipV4Info" :
+		"IPv4 address information",
+"label_wanIp" :
+		"Public WAN-IP: ",
+"label_gateway" :
+		"Gateway address: ",
+"label_dns1" :
+		"Primary DNS server: ",
+"label_dns2" :
+		"Secondary DNS server: ",
+		
+"wireless.frm" : "[x]*******************************************************",
+"title_wireless" :
+		"WiFi settings",
+"helpTtl_aboutWireless" :
+		"What is WiFi?",
+"helpCnt_aboutWireless" :
+		"WiFi is a wireless local network. It allows you to connect your notebook, printer or other WiFi-capable devices to the router without any wires. You have two WiFi frequency bands that you can use separately or together. The 5 GHz frequency band, however, is currently only supported by a few devices.",
+"checkbox_wireless_2gEnable" :
+		"Switch on the WLAN in the 2.4 GHz frequency band",
+"checkbox_wireless_5gEnable" :
+		"Switch on the WLAN in the 5 GHz frequency band",
+"label_ssid" :
+		"SSID",
+"error_ssid_invalid" :
+		"Invalid entry! Please assign an SSID!",
+"helpCnt_aboutSsid" :
+		"The SSID (Service Set Identifier) serves to distinguish various WiFi networks at the same location. The SSID must be known at each computer that is to be connected to the WiFi network.",
+"label_ssidVisibility" :
+		"SSID visibility",
+"option_visible" :
+		"Visible",
+"option_hidden" :
+		"Hidden",
+"helpTtl_ssidVisibility" :
+		"What does SSID visibility mean?",
+"helpCnt_ssidVisibility" :
+		"You can make the SSID of your Wifi network invisible if you do not want your SSID to be displayed in the wireless network.<br/>Using the visible SSID visibility setting makes it easier to select and set up your WiFi network if you want to use it to connect a computer.<br/>Using the hidden setting marginally increases protection against unauthorized access.",
+"label_encryptionType" :
+		"Encryption type",
+"option_wpa2" :
+		"WPA2 (very secure)",
+"option_wpa" :
+		"WPA / WPA2 (secure)",
+"option_wpa1" :
+		"WPA (secure)",
+"option_wep" :
+		"WEP (low security level)",
+"option_unenencrypted" :
+		"unenencrypted (not recommended)",
+"helpTtl_encryptionType" :
+		"What distinguishes the types of encryption?",
+"helpCnt_encryptionType" :
+		"The encryption type WPA2 provides you with the maximum security currently possible for your wireless data transfer. Please note that some older WLAN adapters do not support this encryption method.<br/><br/>The encryption type WPA / WPA2 is a secure encryption method that offers high compatibility to your WLAN devices. Your Speedport detects the encryption method supported by your WLAN device and uses either WPA encryption or WPA2 encryption for the data transmission.<br/><br/>The encryption type WPA is a more secure encryption method that is supported by most WLAN adapters.<br/><br/>The encryption type WEP is the oldest encryption method and is supported by virtually all WLAN devices. This encryption type, however, can be relatively quickly circumvented and therefore offers little security.<br/><br/>An encrypted WLAN can be used from anyone within the frequency range of your router without requiring any other tools. In addition, transmitted data can be intercepted and read out.",
+"label_wifiKey" :
+		"WiFi key",
+"error_wifiKey_invalid" :
+		"Invalid entry! Please assign a WLAN key (16 digits recommended)!",
+"helpTtl_aboutWifiKey" :
+		"Where do I use the WiFi key?",
+"helpCnt_aboutWifiKey" :
+		"Enter the WiFi key in each computer that you want to connect to the WiFi network. ",
+		
+"xxxxx.frm" : "[]*******************************************************",
+"" :
+		"",
 "" :
 		"",
 "" :
@@ -213,7 +410,7 @@
 "" :
 		"",
 		
-"voip.frm" : "[]*******************************************************",
+"xxxxx.frm" : "[]*******************************************************",
 "" :
 		"",
 "" :

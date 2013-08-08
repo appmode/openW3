@@ -15,24 +15,24 @@
 		"ttlVoip":
 		{
 			"type"  : "tlabs/content/title",
-			"i18n"  : "phone_numberAssigment_headline"
+			"i18n"  : "title_voip_assign"
 		},
 		"txtVoip":
 		{
 			"type"  : "tlabs/content/text",
-			"i18n"  : "phone_internet_content_1"
+			"i18n"  : "content_voip_assign_info"
 		},
 		"fraIncoming":
 		{
 			"type"      : "tlabs/content/frame",
-			"i18n"      : "phone_numberAssigment_incoming",
+			"i18n"      : "subtitle_voip_incoming",
 			"Children"	:
 			{
 				"hlpNumber":
 				{
 					"type"       : "tlabs/content/help",
-					"i18nTitle"  : "phone_numberAssigment_incoming_helpme_link",
-					"i18n"       : "phone_numberAssigment_incoming_helpme_content"
+					"i18nTitle"  : "helpTtl_voipIncoming",
+					"i18n"       : "helpCnt_voipIncoming"
 				},
 				"numIncoming":
 				{
@@ -54,14 +54,14 @@
 		"fraOutgoing":
 		{
 			"type"      : "tlabs/content/frame",
-			"i18n"      : "key_outgoingCalls",
+			"i18n"      : "subtitle_voip_outgoing",
 			"Children"	:
 			{
 				"hlpNumber":
 				{
 					"type"       : "tlabs/content/help",
-					"i18nTitle"  : "phone_numberAssigment_outgoing_helpme_link",
-					"i18n"       : "phone_numberAssigment_outgoing_helpme_content"
+					"i18nTitle"  : "helpTtl_voipOutgoing",
+					"i18n"       : "helpCnt_voipOutgoing"
 				},
 				"numOutgoing":
 				{

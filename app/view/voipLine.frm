@@ -15,18 +15,18 @@
 		"ttlVoip":
 		{
 			"type"  : "tlabs/content/title",
-			"i18n"  : "phone_lineset_caption"
+			"i18n"  : "title_voip_line"
 		},
 		"txtVoip":
 		{
 			"type"  : "tlabs/content/text",
-			"i18n"  : "phone_lineset_expl"
+			"i18n"  : "content_voip_line_info"
 		},
 		"hlpNumber":
 		{
 			"type"       : "tlabs/content/help",
-			"i18nTitle"  : "helpme_lineset_elements",
-			"i18n"       : "helpme_lineset_elements_content_listEntry_3"
+			"i18nTitle"  : "helpTtl_voipLineSettings",
+			"i18n"       : "helpCnt_voipLineSettings"
 		},
 		"numSettings":
 		{

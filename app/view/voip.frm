@@ -15,12 +15,12 @@
 		"ttlVoip":
 		{
 			"type"  : "tlabs/content/title",
-			"i18n"  : "phone_internet_caption"
+			"i18n"  : "title_voip"
 		},
 		"txtVoip":
 		{
 			"type"  : "tlabs/content/text",
-			"i18n"  : "phone_internet_content_1"
+			"i18n"  : "content_voip_info"
 		},
 		"fraVoip":
 		{
@@ -32,7 +32,7 @@
 				"selProvider":
 				{
 					"type"  : "tlabs/content/selectinput",
-					"i18n"	: "key_provider",
+					"i18n"	: "label_provider",
 					"options":
 					[
 						{
@@ -49,17 +49,17 @@
 				"telNumber":
 				{
 					"type"       : "tlabs/content/telnum",
-					"i18nError"  : "error_message_no_areacode",
+					"i18nError"  : "error_areacode_invalid",
 					"dataSource" : "voip",
 					"dataField"  : "*"
 				},
 				"hlpRegister":
 				{
 					"type"       : "tlabs/content/help",
-					"i18nTitle"  : "helpme_register_caption",
-					"i18nPrefix" : "a_pc_s2p2_regDefault_1",
-					"i18nSuffix" : "a_pc_s2p2_regDefault_2",
-					"i18n"       : "helpme_register_content",
+					"i18nTitle"  : "helpTtl_voipRegistration",
+					"i18nPrefix" : "helpPre_voipRegistration",
+					"i18nSuffix" : "helpSuf_voipRegistration",
+					"i18n"       : "helpCnt_voipRegistration",
 					"style"	:
 					{
 						"display" : "none"
