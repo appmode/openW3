@@ -59,7 +59,7 @@ https://github.com/appmode/openW3/wiki
 
 4) view the system in your web browser
 
-    http://localhost:8080/sample
+    http://localhost:8080/openw3
 
 5) edit system files (you will need to restart the run.sh script & refresh your
 browser after making changes).
